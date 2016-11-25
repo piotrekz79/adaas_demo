@@ -1,14 +1,18 @@
 #!/usr/bin/env python
 import pika
 
-lbIP='134.221.121.65'
-lbPort=5670
-
-
 msgbody='Hello3 World!'
 
-connection = pika.BlockingConnection(pika.ConnectionParameters(
-        host=lbIP,port=lbPort))
+lbIP='134.221.121.65'
+#lbIP='localhost'
+
+lbPort=5670
+
+credentials = pika.PlainCredentials('user1', 'password1')
+parameters = pika.ConnectionParameters(host=lbIP, port=lbPort, virtual_host='vhost1', credentials=credentials)
+
+connection = pika.BlockingConnection(parameters)
+
 channel = connection.channel()
 
 channel.queue_declare(queue='hello3')
