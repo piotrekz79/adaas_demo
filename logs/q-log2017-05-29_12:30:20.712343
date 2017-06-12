@@ -1,0 +1,41 @@
+2017-05-29 12:30:20.723018 accepting AMQP connection <0.12769.2237> (134.221.121.65:58420 -> 134.221.121.65:5672)
+
+2017-05-29 12:30:22.724047 checking heartbeat
+2017-05-29 12:30:24.726273 checking heartbeat
+2017-05-29 12:30:26.727314 checking heartbeat
+2017-05-29 12:30:28.729710 checking heartbeat
+2017-05-29 12:30:32.723751 checking heartbeat
+2017-05-29 12:30:34.724179 checking heartbeat
+2017-05-29 12:30:36.726132 checking heartbeat
+2017-05-29 12:30:38.727471 checking heartbeat
+2017-05-29 12:30:42.725738 checking heartbeat
+2017-05-29 12:30:44.728127 checking heartbeat
+2017-05-29 12:30:46.730528 checking heartbeat
+2017-05-29 12:30:48.731094 checking heartbeat
+2017-05-29 12:30:49.541434 accepting AMQP connection <0.12995.2237> (134.221.121.65:58480 -> 134.221.121.65:5672)
+
+2017-05-29 12:30:49.560984 closing AMQP connection <0.12995.2237> (134.221.121.65:58480 -> 134.221.121.65:5672)
+
+2017-05-29 12:30:49.568004 accepting AMQP connection <0.13086.2237> (134.221.121.65:58482 -> 134.221.121.65:5672)
+
+2017-05-29 12:30:50.710526 closing AMQP connection <0.12746.2237> (134.221.121.65:58416 -> 134.221.121.65:5672):
+missed heartbeats from client, timeout: 10s
+
+2017-05-29 12:30:52.712862 checking heartbeat
+2017-05-29 12:30:54.713348 checking heartbeat
+2017-05-29 12:30:57.728828 checking heartbeat
+2017-05-29 12:30:59.731171 checking heartbeat
+2017-05-29 12:31:01.733482 checking heartbeat
+2017-05-29 12:31:03.733986 checking heartbeat
+2017-05-29 12:31:03.905623 closing AMQP connection <0.13086.2237> (134.221.121.65:58482 -> 134.221.121.65:5672):
+client unexpectedly closed TCP connection
+
+2017-05-29 12:31:05.906228 checking heartbeat
+2017-05-29 12:31:07.906604 checking heartbeat
+2017-05-29 12:31:09.908937 checking heartbeat
+2017-05-29 12:31:12.731698 checking heartbeat
+2017-05-29 12:31:14.734060 checking heartbeat
+2017-05-29 12:31:16.736369 checking heartbeat
+2017-05-29 12:31:18.738779 checking heartbeat
+2017-05-29 12:31:22.732458 checking heartbeat
+2017-05-29 12:31:24.734745 checking heartbeat
