@@ -1,0 +1,28 @@
+ 2017-03-09 18:27:58.821017 publishing hello world 126
+2017-03-09 18:27:58.924467 publishing hello world 127
+2017-03-09 18:27:59.027811 publishing hello world 128
+2017-03-09 18:27:59.131227 publishing hello world 129
+/usr/local/lib/python2.7/dist-packages/amqp/connection.py:304: AMQPDeprecationWarning: The .transport attribute on the connection was accessed before
+the connection was established.  This is supported for now, but will
+be deprecated in amqp 2.2.0.
+
+Since amqp 2.0 you have to explicitly call Connection.connect()
+before using the connection.
+
+  W_FORCE_CONNECT.format(attr=attr)))
+Traceback (most recent call last):
+  File "/home/adaas/adaas_demo/kombu_producer_ensure.py", line 25, in <module>
+    publish(msg_body, routing_key='hello7', exchange = queues.exchange, declare=[queues])
+  File "/usr/local/lib/python2.7/dist-packages/kombu/connection.py", line 506, in _ensured
+    self.collect()
+  File "/usr/local/lib/python2.7/dist-packages/kombu/connection.py", line 350, in collect
+    gc_transport(self._connection)
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/pyamqp.py", line 107, in _collect
+    connection.collect()
+  File "/usr/local/lib/python2.7/dist-packages/amqp/connection.py", line 423, in collect
+    temp_list = [x for x in values(self.channels) if x is not self]
+  File "/usr/local/lib/python2.7/dist-packages/vine/five.py", line 218, in values
+    return d.itervalues()
+AttributeError: 'NoneType' object has no attribute 'itervalues'
+
+Process finished with exit code 1
