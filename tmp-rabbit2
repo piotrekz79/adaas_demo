@@ -1,0 +1,6 @@
+frontend rabbit
+	bind 134.221.121.65:5670
+	default_backend rabbit_cluster
+
+backend rabbit_cluster
+	server node-01 134.221.121.65:5672 check

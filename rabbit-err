@@ -1,0 +1,78 @@
+INFO       2017-03-08 16:49:49,188 __main__                       acknowledge_message                  291 : Acknowledging message 45
+DEBUG      2017-03-08 16:49:50,050 pika.callback                  process                              220 : Processing 0:Connection.Close
+DEBUG      2017-03-08 16:49:50,051 pika.callback                  _use_one_shot_callback               404 : Processing use of oneshot callback
+DEBUG      2017-03-08 16:49:50,051 pika.callback                  _use_one_shot_callback               406 : 0 registered uses left
+DEBUG      2017-03-08 16:49:50,051 pika.callback                  remove                               269 : Removing callback #0: {'callback': <bound method SelectConnection._on_connection_close of <SelectConnection OPEN socket=('134.221.121.65', 46558)->('134.221.121.65', 5670) params=<URLParameters host=134.221.121.65 port=5670 virtual_host=vhost1 ssl=False>>>, 'only': None, 'one_shot': True, 'arguments': None, 'calls': 0}
+DEBUG      2017-03-08 16:49:50,051 pika.callback                  process                              234 : Calling <bound method SelectConnection._on_connection_close of <SelectConnection OPEN socket=('134.221.121.65', 46558)->('134.221.121.65', 5670) params=<URLParameters host=134.221.121.65 port=5670 virtual_host=vhost1 ssl=False>>> for "0:Connection.Close"
+DEBUG      2017-03-08 16:49:50,051 pika.connection                _on_connection_close                 1724: _on_connection_close: frame=<METHOD(['channel_number=0', 'frame_type=1', 'method=<Connection.Close([\'class_id=0\', \'method_id=0\', \'reply_code=320\', "reply_text=CONNECTION_FORCED - broker forced connection closure with reason \'shutdown\'"])>'])>
+INFO       2017-03-08 16:49:50,051 pika.connection                _on_terminate                        1891: Disconnected from RabbitMQ at 134.221.121.65:5670 (320): CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'
+DEBUG      2017-03-08 16:49:50,052 pika.heartbeat                 stop                                 108 : Removing timeout for next heartbeat interval
+DEBUG      2017-03-08 16:49:50,052 pika.adapters.select_connection remove_timeout                       339 : remove_timeout: removed 8201115652106146679
+DEBUG      2017-03-08 16:49:50,052 pika.channel                   _on_close_meta                       1064: Handling meta-close on <Channel number=1 OPEN conn=<SelectConnection CLOSED socket=None params=<URLParameters host=134.221.121.65 port=5670 virtual_host=vhost1 ssl=False>>>
+DEBUG      2017-03-08 16:49:50,052 pika.callback                  process                              220 : Processing 1:_on_channel_close
+DEBUG      2017-03-08 16:49:50,052 pika.callback                  process                              234 : Calling <bound method ExampleConsumer.on_channel_closed of <__main__.ExampleConsumer object at 0x7ff0c4056f90>> for "1:_on_channel_close"
+WARNING    2017-03-08 16:49:50,052 __main__                       on_channel_closed                    167 : Channel 1 was closed: (320) CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'
+WARNING    2017-03-08 16:49:50,053 pika.connection                close                                1135: Suppressing close request on <SelectConnection CLOSED socket=None params=<URLParameters host=134.221.121.65 port=5670 virtual_host=vhost1 ssl=False>>
+DEBUG      2017-03-08 16:49:50,053 pika.callback                  process                              220 : Processing 1:_on_channel_cleanup
+DEBUG      2017-03-08 16:49:50,053 pika.callback                  _use_one_shot_callback               404 : Processing use of oneshot callback
+DEBUG      2017-03-08 16:49:50,053 pika.callback                  _use_one_shot_callback               406 : 0 registered uses left
+DEBUG      2017-03-08 16:49:50,053 pika.callback                  remove                               269 : Removing callback #0: {'callback': <bound method SelectConnection._on_channel_cleanup of <SelectConnection CLOSED socket=None params=<URLParameters host=134.221.121.65 port=5670 virtual_host=vhost1 ssl=False>>>, 'only': <Channel number=1 CLOSED conn=<SelectConnection CLOSED socket=None params=<URLParameters host=134.221.121.65 port=5670 virtual_host=vhost1 ssl=False>>>, 'one_shot': True, 'arguments': None, 'calls': 0}
+DEBUG      2017-03-08 16:49:50,053 pika.callback                  process                              234 : Calling <bound method SelectConnection._on_channel_cleanup of <SelectConnection CLOSED socket=None params=<URLParameters host=134.221.121.65 port=5670 virtual_host=vhost1 ssl=False>>> for "1:_on_channel_cleanup"
+DEBUG      2017-03-08 16:49:50,053 pika.connection                _on_channel_cleanup                  1630: Removed channel 1
+DEBUG      2017-03-08 16:49:50,054 pika.callback                  cleanup                              181 : Clearing out '1' from the stack
+DEBUG      2017-03-08 16:49:50,054 pika.callback                  process                              220 : Processing 0:_on_connection_closed
+DEBUG      2017-03-08 16:49:50,054 pika.callback                  process                              234 : Calling <bound method ExampleConsumer.on_connection_closed of <__main__.ExampleConsumer object at 0x7ff0c4056f90>> for "0:_on_connection_closed"
+WARNING    2017-03-08 16:49:50,054 __main__                       on_connection_closed                 105 : Connection closed, reopening in 5 seconds: (320) CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'
+DEBUG      2017-03-08 16:49:50,054 pika.adapters.select_connection add_timeout                          322 : add_timeout: added timeout 4536467444250264611; deadline=5 at 1488988195.05
+DEBUG      2017-03-08 16:49:50,054 pika.callback                  add                                  164 : Added: {'callback': <bound method SelectConnection._on_connection_start of <SelectConnection CLOSED socket=None params=<URLParameters host=134.221.121.65 port=5670 virtual_host=vhost1 ssl=False>>>, 'only': None, 'one_shot': True, 'arguments': None, 'calls': 1}
+DEBUG      2017-03-08 16:49:50,054 pika.callback                  add                                  164 : Added: {'callback': <bound method SelectConnection._on_connection_close of <SelectConnection CLOSED socket=None params=<URLParameters host=134.221.121.65 port=5670 virtual_host=vhost1 ssl=False>>>, 'only': None, 'one_shot': True, 'arguments': None, 'calls': 1}
+DEBUG      2017-03-08 16:49:55,057 pika.adapters.select_connection stop                                 534 : Stopping IOLoop
+INFO       2017-03-08 16:49:55,057 __main__                       connect                              65  : Connecting to amqp://user1:password1@134.221.121.65:5670/vhost1
+DEBUG      2017-03-08 16:49:55,058 pika.adapters.select_connection _get_poller                          136 : Using EPollPoller
+DEBUG      2017-03-08 16:49:55,058 pika.callback                  add                                  164 : Added: {'callback': <bound method SelectConnection._on_connection_start of <SelectConnection CLOSED socket=None params=<URLParameters host=134.221.121.65 port=5670 virtual_host=vhost1 ssl=False>>>, 'only': None, 'one_shot': True, 'arguments': None, 'calls': 1}
+DEBUG      2017-03-08 16:49:55,058 pika.callback                  add                                  164 : Added: {'callback': <bound method SelectConnection._on_connection_close of <SelectConnection CLOSED socket=None params=<URLParameters host=134.221.121.65 port=5670 virtual_host=vhost1 ssl=False>>>, 'only': None, 'one_shot': True, 'arguments': None, 'calls': 1}
+DEBUG      2017-03-08 16:49:55,058 pika.callback                  add                                  164 : Added: {'callback': <bound method SelectConnection._on_connection_error of <SelectConnection CLOSED socket=None params=<URLParameters host=134.221.121.65 port=5670 virtual_host=vhost1 ssl=False>>>, 'only': None, 'one_shot': False, 'arguments': None}
+DEBUG      2017-03-08 16:49:55,059 pika.callback                  add                                  164 : Added: {'callback': <bound method ExampleConsumer.on_connection_open of <__main__.ExampleConsumer object at 0x7ff0c4056f90>>, 'only': None, 'one_shot': False, 'arguments': None}
+INFO       2017-03-08 16:49:55,059 pika.adapters.base_connection  _create_and_connect_to_socket        217 : Connecting to 134.221.121.65:5670
+DEBUG      2017-03-08 16:49:55,059 pika.adapters.select_connection start                                482 : Entering IOLoop
+ERROR      2017-03-08 16:49:58,065 pika.adapters.base_connection  _handle_read                         447 : Read empty data, calling disconnect
+INFO       2017-03-08 16:49:58,065 pika.connection                _on_terminate                        1891: Disconnected from RabbitMQ at 134.221.121.65:5670 (-1): EOF
+ERROR      2017-03-08 16:49:58,065 pika.connection                _on_terminate                        1919: Incompatible Protocol Versions
+ERROR      2017-03-08 16:49:58,066 pika.connection                _on_terminate                        1954: Connection setup failed due to The protocol returned by the server is not supported: (-1, 'EOF')
+DEBUG      2017-03-08 16:49:58,066 pika.callback                  process                              220 : Processing 0:_on_connection_error
+DEBUG      2017-03-08 16:49:58,066 pika.callback                  process                              234 : Calling <bound method SelectConnection._on_connection_error of <SelectConnection CLOSED socket=None params=<URLParameters host=134.221.121.65 port=5670 virtual_host=vhost1 ssl=False>>> for "0:_on_connection_error"
+ERROR      2017-03-08 16:49:58,066 pika.callback                  process                              239 : Calling <bound method SelectConnection._on_connection_error of <SelectConnection CLOSED socket=None params=<URLParameters host=134.221.121.65 port=5670 virtual_host=vhost1 ssl=False>>> for "0:_on_connection_error" failed
+Traceback (most recent call last):
+  File "build/bdist.linux-x86_64/egg/pika/callback.py", line 236, in process
+    callback(*args, **keywords)
+  File "build/bdist.linux-x86_64/egg/pika/connection.py", line 1748, in _on_connection_error
+    self.params.connection_attempts)
+AMQPConnectionError: (-1, 'EOF')
+DEBUG      2017-03-08 16:49:58,067 pika.adapters.select_connection start                                513 : Cleaning up IOLoop
+DEBUG      2017-03-08 16:49:58,067 pika.adapters.select_connection start                                513 : Cleaning up IOLoop
+Traceback (most recent call last):
+  File "/home/adaas/adaas_demo/async_consumer.py", line 398, in <module>
+    main()
+  File "/home/adaas/adaas_demo/async_consumer.py", line 392, in main
+    example.run()
+  File "/home/adaas/adaas_demo/async_consumer.py", line 329, in run
+    self._connection.ioloop.start()
+  File "build/bdist.linux-x86_64/egg/pika/adapters/select_connection.py", line 209, in start
+  File "build/bdist.linux-x86_64/egg/pika/adapters/select_connection.py", line 507, in start
+  File "build/bdist.linux-x86_64/egg/pika/adapters/select_connection.py", line 377, in process_timeouts
+  File "/home/adaas/adaas_demo/async_consumer.py", line 121, in reconnect
+    self._connection.ioloop.start()
+  File "build/bdist.linux-x86_64/egg/pika/adapters/select_connection.py", line 209, in start
+  File "build/bdist.linux-x86_64/egg/pika/adapters/select_connection.py", line 506, in start
+  File "build/bdist.linux-x86_64/egg/pika/adapters/select_connection.py", line 946, in poll
+  File "build/bdist.linux-x86_64/egg/pika/adapters/select_connection.py", line 636, in _dispatch_fd_events
+  File "build/bdist.linux-x86_64/egg/pika/adapters/base_connection.py", line 398, in _handle_events
+  File "build/bdist.linux-x86_64/egg/pika/adapters/base_connection.py", line 450, in _handle_read
+  File "build/bdist.linux-x86_64/egg/pika/connection.py", line 1958, in _on_terminate
+  File "build/bdist.linux-x86_64/egg/pika/callback.py", line 60, in wrapper
+  File "build/bdist.linux-x86_64/egg/pika/callback.py", line 92, in wrapper
+  File "build/bdist.linux-x86_64/egg/pika/callback.py", line 236, in process
+  File "build/bdist.linux-x86_64/egg/pika/connection.py", line 1748, in _on_connection_error
+pika.exceptions.AMQPConnectionError: (-1, 'EOF')
+
+Process finished with exit code 1

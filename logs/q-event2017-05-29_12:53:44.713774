@@ -1,0 +1,1223 @@
+2017-05-29 12:53:44.724795 
+2017-05-29 12:53:44.725428 closing AMQP connection <0.19507.2237> (134.221.121.65:59908 -> 134.221.121.65:5672):
+client unexpectedly closed TCP connection
+
+2017-05-29 12:53:44.725934 accepting AMQP connection <0.23860.2237> (134.221.121.65:60862 -> 134.221.121.65:5672)
+
+2017-05-29 12:53:44.726407 
+2017-05-29 12:53:44.726753 
+2017-05-29 12:53:44.727085 closing AMQP connection <0.23860.2237> (134.221.121.65:60862 -> 134.221.121.65:5672):
+client unexpectedly closed TCP connection
+
+2017-05-29 12:53:44.727393 accepting AMQP connection <0.24707.2237> (134.221.121.65:32796 -> 134.221.121.65:5672)
+
+2017-05-29 12:53:44.727726 
+2017-05-29 12:53:44.727990 
+2017-05-29 12:53:44.728340 closing AMQP connection <0.24707.2237> (134.221.121.65:32796 -> 134.221.121.65:5672)
+
+2017-05-29 12:53:44.728645 accepting AMQP connection <0.25737.2237> (134.221.121.65:33046 -> 134.221.121.65:5672)
+
+2017-05-29 12:53:44.728970 
+2017-05-29 12:53:44.729273 accepting AMQP connection <0.25771.2237> (134.221.121.65:33050 -> 134.221.121.65:5672)
+
+2017-05-29 12:53:44.729629 
+2017-05-29 12:53:46.731939 checking heartbeat
+2017-05-29 12:53:48.734306 checking heartbeat
+2017-05-29 12:53:50.736655 checking heartbeat
+2017-05-29 12:53:52.739030 checking heartbeat
+2017-05-29 12:53:56.725804 checking heartbeat
+2017-05-29 12:53:58.728158 checking heartbeat
+2017-05-29 12:54:00.730318 checking heartbeat
+2017-05-29 12:54:02.732716 checking heartbeat
+2017-05-29 12:54:06.727738 checking heartbeat
+2017-05-29 12:54:08.729738 checking heartbeat
+2017-05-29 12:54:10.732086 checking heartbeat
+2017-05-29 12:54:12.734566 checking heartbeat
+2017-05-29 12:54:14.715382 
+2017-05-29 12:54:14.715795 closing AMQP connection <0.25737.2237> (134.221.121.65:33046 -> 134.221.121.65:5672):
+missed heartbeats from client, timeout: 10s
+
+2017-05-29 12:54:16.718064 checking heartbeat
+2017-05-29 12:54:18.416054 accepting AMQP connection <0.26155.2237> (134.221.121.65:33120 -> 134.221.121.65:5672)
+
+2017-05-29 12:54:18.417659 
+2017-05-29 12:54:20.419125 checking heartbeat
+2017-05-29 12:54:22.421539 checking heartbeat
+2017-05-29 12:54:24.423907 checking heartbeat
+2017-05-29 12:54:26.731799 checking heartbeat
+2017-05-29 12:54:28.734156 checking heartbeat
+2017-05-29 12:54:29.134060 
+2017-05-29 12:54:29.134532 closing AMQP connection <0.26155.2237> (134.221.121.65:33120 -> 134.221.121.65:5672)
+
+2017-05-29 12:54:31.135633 checking heartbeat
+2017-05-29 12:54:33.137981 checking heartbeat
+2017-05-29 12:54:36.733756 checking heartbeat
+2017-05-29 12:54:38.736127 checking heartbeat
+2017-05-29 12:54:40.738106 checking heartbeat
+2017-05-29 12:54:42.740429 checking heartbeat
+2017-05-29 12:54:46.735612 checking heartbeat
+2017-05-29 12:54:48.737980 checking heartbeat
+2017-05-29 12:54:50.738958 checking heartbeat
+2017-05-29 12:54:52.741080 checking heartbeat
+2017-05-29 12:54:56.737941 checking heartbeat
+2017-05-29 12:54:58.739718 checking heartbeat
+2017-05-29 12:55:00.742073 checking heartbeat
+2017-05-29 12:55:02.744389 checking heartbeat
+2017-05-29 12:55:06.738746 checking heartbeat
+2017-05-29 12:55:08.741054 checking heartbeat
+2017-05-29 12:55:10.743512 checking heartbeat
+2017-05-29 12:55:12.745951 checking heartbeat
+2017-05-29 12:55:16.741834 checking heartbeat
+2017-05-29 12:55:18.744173 checking heartbeat
+2017-05-29 12:55:20.746738 checking heartbeat
+2017-05-29 12:55:22.749223 checking heartbeat
+2017-05-29 12:55:26.743769 checking heartbeat
+2017-05-29 12:55:28.746102 checking heartbeat
+2017-05-29 12:55:30.748435 checking heartbeat
+2017-05-29 12:55:32.750742 checking heartbeat
+2017-05-29 12:55:36.745843 checking heartbeat
+2017-05-29 12:55:38.748185 checking heartbeat
+2017-05-29 12:55:40.748866 checking heartbeat
+2017-05-29 12:55:42.380248 accepting AMQP connection <0.26878.2237> (134.221.121.65:33290 -> 134.221.121.65:5672)
+
+2017-05-29 12:55:42.381497 
+2017-05-29 12:55:44.383084 checking heartbeat
+2017-05-29 12:55:46.385465 checking heartbeat
+2017-05-29 12:55:48.386709 checking heartbeat
+2017-05-29 12:55:51.748833 checking heartbeat
+2017-05-29 12:55:53.751217 checking heartbeat
+2017-05-29 12:55:55.753563 checking heartbeat
+2017-05-29 12:55:57.756002 checking heartbeat
+2017-05-29 12:56:01.750825 checking heartbeat
+2017-05-29 12:56:03.753190 checking heartbeat
+2017-05-29 12:56:05.755515 checking heartbeat
+2017-05-29 12:56:07.757877 checking heartbeat
+2017-05-29 12:56:11.752833 checking heartbeat
+2017-05-29 12:56:13.754336 checking heartbeat
+2017-05-29 12:56:15.756744 checking heartbeat
+2017-05-29 12:56:17.759109 checking heartbeat
+2017-05-29 12:56:21.754720 checking heartbeat
+2017-05-29 12:56:23.755317 checking heartbeat
+2017-05-29 12:56:25.757654 checking heartbeat
+2017-05-29 12:56:27.759978 checking heartbeat
+2017-05-29 12:56:31.756726 checking heartbeat
+2017-05-29 12:56:33.759148 checking heartbeat
+2017-05-29 12:56:35.761597 checking heartbeat
+2017-05-29 12:56:37.763347 checking heartbeat
+2017-05-29 12:56:41.757410 checking heartbeat
+2017-05-29 12:56:43.759331 checking heartbeat
+2017-05-29 12:56:45.761734 checking heartbeat
+2017-05-29 12:56:47.764178 checking heartbeat
+2017-05-29 12:56:51.760737 checking heartbeat
+2017-05-29 12:56:53.763128 checking heartbeat
+2017-05-29 12:56:55.765490 checking heartbeat
+2017-05-29 12:56:57.767828 checking heartbeat
+2017-05-29 12:57:01.762768 checking heartbeat
+2017-05-29 12:57:03.763254 checking heartbeat
+2017-05-29 12:57:05.765653 checking heartbeat
+2017-05-29 12:57:06.108873 
+2017-05-29 12:57:06.109316 closing AMQP connection <0.26878.2237> (134.221.121.65:33290 -> 134.221.121.65:5672):
+client unexpectedly closed TCP connection
+
+2017-05-29 12:57:08.111574 checking heartbeat
+2017-05-29 12:57:10.113896 checking heartbeat
+2017-05-29 12:57:12.116207 checking heartbeat
+2017-05-29 12:57:14.117784 checking heartbeat
+2017-05-29 12:57:16.765808 checking heartbeat
+2017-05-29 12:57:18.768158 checking heartbeat
+2017-05-29 12:57:20.769027 checking heartbeat
+2017-05-29 12:57:22.771389 checking heartbeat
+2017-05-29 12:57:26.767243 checking heartbeat
+2017-05-29 12:57:28.769590 checking heartbeat
+2017-05-29 12:57:30.771922 checking heartbeat
+2017-05-29 12:57:32.774340 checking heartbeat
+2017-05-29 12:57:36.768650 checking heartbeat
+2017-05-29 12:57:38.771096 checking heartbeat
+2017-05-29 12:57:40.771484 checking heartbeat
+2017-05-29 12:57:42.773602 checking heartbeat
+2017-05-29 12:57:46.771351 checking heartbeat
+2017-05-29 12:57:48.773794 checking heartbeat
+2017-05-29 12:57:50.775202 checking heartbeat
+2017-05-29 12:57:52.777526 checking heartbeat
+2017-05-29 12:57:56.772637 checking heartbeat
+2017-05-29 12:57:58.774978 checking heartbeat
+2017-05-29 12:58:00.775495 checking heartbeat
+2017-05-29 12:58:02.777821 checking heartbeat
+2017-05-29 12:58:06.775403 checking heartbeat
+2017-05-29 12:58:08.776410 checking heartbeat
+2017-05-29 12:58:10.776894 checking heartbeat
+2017-05-29 12:58:12.779356 checking heartbeat
+2017-05-29 12:58:16.777460 checking heartbeat
+2017-05-29 12:58:18.779780 checking heartbeat
+2017-05-29 12:58:20.782100 checking heartbeat
+2017-05-29 12:58:22.784495 checking heartbeat
+2017-05-29 12:58:26.779764 checking heartbeat
+2017-05-29 12:58:28.782114 checking heartbeat
+2017-05-29 12:58:30.783478 checking heartbeat
+2017-05-29 12:58:32.785285 checking heartbeat
+2017-05-29 12:58:36.780391 checking heartbeat
+2017-05-29 12:58:38.780927 checking heartbeat
+2017-05-29 12:58:40.783258 checking heartbeat
+2017-05-29 12:58:42.785580 checking heartbeat
+2017-05-29 12:58:46.783826 checking heartbeat
+2017-05-29 12:58:48.784621 checking heartbeat
+2017-05-29 12:58:50.787148 checking heartbeat
+2017-05-29 12:58:52.788700 checking heartbeat
+2017-05-29 12:58:56.785781 checking heartbeat
+2017-05-29 12:58:58.788129 checking heartbeat
+2017-05-29 12:59:00.790429 checking heartbeat
+2017-05-29 12:59:02.792816 checking heartbeat
+2017-05-29 12:59:06.787184 checking heartbeat
+2017-05-29 12:59:08.789589 checking heartbeat
+2017-05-29 12:59:10.791179 checking heartbeat
+2017-05-29 12:59:12.793532 checking heartbeat
+2017-05-29 12:59:16.789791 checking heartbeat
+2017-05-29 12:59:18.792098 checking heartbeat
+2017-05-29 12:59:20.792469 checking heartbeat
+2017-05-29 12:59:22.794805 checking heartbeat
+2017-05-29 12:59:26.791755 checking heartbeat
+2017-05-29 12:59:28.794196 checking heartbeat
+2017-05-29 12:59:30.796519 checking heartbeat
+2017-05-29 12:59:32.798502 checking heartbeat
+2017-05-29 12:59:36.793446 checking heartbeat
+2017-05-29 12:59:38.795837 checking heartbeat
+2017-05-29 12:59:40.798277 checking heartbeat
+2017-05-29 12:59:42.799833 checking heartbeat
+2017-05-29 12:59:46.795867 checking heartbeat
+2017-05-29 12:59:48.796285 checking heartbeat
+2017-05-29 12:59:50.796724 checking heartbeat
+2017-05-29 12:59:52.798715 checking heartbeat
+2017-05-29 12:59:56.797864 checking heartbeat
+2017-05-29 12:59:58.798405 checking heartbeat
+2017-05-29 13:00:00.800777 checking heartbeat
+2017-05-29 13:00:02.802062 checking heartbeat
+2017-05-29 13:00:06.799621 checking heartbeat
+2017-05-29 13:00:08.802123 checking heartbeat
+2017-05-29 13:00:10.804501 checking heartbeat
+2017-05-29 13:00:12.806876 checking heartbeat
+2017-05-29 13:00:16.801441 checking heartbeat
+2017-05-29 13:00:18.803799 checking heartbeat
+2017-05-29 13:00:20.806368 checking heartbeat
+2017-05-29 13:00:22.808743 checking heartbeat
+2017-05-29 13:00:26.803834 checking heartbeat
+2017-05-29 13:00:28.806206 checking heartbeat
+2017-05-29 13:00:30.808117 checking heartbeat
+2017-05-29 13:00:32.810553 checking heartbeat
+2017-05-29 13:00:36.805845 checking heartbeat
+2017-05-29 13:00:38.807178 checking heartbeat
+2017-05-29 13:00:40.809529 checking heartbeat
+2017-05-29 13:00:42.811908 checking heartbeat
+2017-05-29 13:00:46.807196 checking heartbeat
+2017-05-29 13:00:48.809491 checking heartbeat
+2017-05-29 13:00:50.811837 checking heartbeat
+2017-05-29 13:00:52.814177 checking heartbeat
+2017-05-29 13:00:56.809847 checking heartbeat
+2017-05-29 13:00:58.811139 checking heartbeat
+2017-05-29 13:01:00.813556 checking heartbeat
+2017-05-29 13:01:02.815950 checking heartbeat
+2017-05-29 13:01:06.811853 checking heartbeat
+2017-05-29 13:01:08.814225 checking heartbeat
+2017-05-29 13:01:10.816728 checking heartbeat
+2017-05-29 13:01:12.819165 checking heartbeat
+2017-05-29 13:01:16.813864 checking heartbeat
+2017-05-29 13:01:18.816234 checking heartbeat
+2017-05-29 13:01:20.818609 checking heartbeat
+2017-05-29 13:01:22.819960 checking heartbeat
+2017-05-29 13:01:26.815896 checking heartbeat
+2017-05-29 13:01:28.818242 checking heartbeat
+2017-05-29 13:01:30.820432 checking heartbeat
+2017-05-29 13:01:32.822776 checking heartbeat
+2017-05-29 13:01:36.817745 checking heartbeat
+2017-05-29 13:01:38.820094 checking heartbeat
+2017-05-29 13:01:40.822457 checking heartbeat
+2017-05-29 13:01:42.824846 checking heartbeat
+2017-05-29 13:01:46.819802 checking heartbeat
+2017-05-29 13:01:48.822266 checking heartbeat
+2017-05-29 13:01:50.822698 checking heartbeat
+2017-05-29 13:01:52.825083 checking heartbeat
+2017-05-29 13:01:56.821899 checking heartbeat
+2017-05-29 13:01:58.823029 checking heartbeat
+2017-05-29 13:02:00.825188 checking heartbeat
+2017-05-29 13:02:02.827497 checking heartbeat
+2017-05-29 13:02:06.822848 checking heartbeat
+2017-05-29 13:02:08.824354 checking heartbeat
+2017-05-29 13:02:10.826735 checking heartbeat
+2017-05-29 13:02:12.828144 checking heartbeat
+2017-05-29 13:02:16.825667 checking heartbeat
+2017-05-29 13:02:18.826908 checking heartbeat
+2017-05-29 13:02:20.829304 checking heartbeat
+2017-05-29 13:02:22.831721 checking heartbeat
+2017-05-29 13:02:26.826353 checking heartbeat
+2017-05-29 13:02:28.827557 checking heartbeat
+2017-05-29 13:02:30.829946 checking heartbeat
+2017-05-29 13:02:32.832335 checking heartbeat
+2017-05-29 13:02:36.829803 checking heartbeat
+2017-05-29 13:02:38.832252 checking heartbeat
+2017-05-29 13:02:40.834616 checking heartbeat
+2017-05-29 13:02:42.836937 checking heartbeat
+2017-05-29 13:02:46.831848 checking heartbeat
+2017-05-29 13:02:48.832832 checking heartbeat
+2017-05-29 13:02:50.835311 checking heartbeat
+2017-05-29 13:02:52.837665 checking heartbeat
+2017-05-29 13:02:56.833706 checking heartbeat
+2017-05-29 13:02:58.836037 checking heartbeat
+2017-05-29 13:03:00.838424 checking heartbeat
+2017-05-29 13:03:02.840936 checking heartbeat
+2017-05-29 13:03:06.835842 checking heartbeat
+2017-05-29 13:03:08.837308 checking heartbeat
+2017-05-29 13:03:10.839734 checking heartbeat
+2017-05-29 13:03:12.842118 checking heartbeat
+2017-05-29 13:03:16.837946 checking heartbeat
+2017-05-29 13:03:18.840263 checking heartbeat
+2017-05-29 13:03:20.842587 checking heartbeat
+2017-05-29 13:03:22.843147 checking heartbeat
+2017-05-29 13:03:26.839262 checking heartbeat
+2017-05-29 13:03:28.841752 checking heartbeat
+2017-05-29 13:03:30.844109 checking heartbeat
+2017-05-29 13:03:32.846459 checking heartbeat
+2017-05-29 13:03:36.841844 checking heartbeat
+2017-05-29 13:03:38.844189 checking heartbeat
+2017-05-29 13:03:39.823575 node rabbit@dane up
+
+2017-05-29 13:03:41.826003 checking heartbeat
+2017-05-29 13:03:43.826494 checking heartbeat
+2017-05-29 13:03:44.500829 started TCP Listener on [::]:5672
+
+2017-05-29 13:03:44.501262 rabbit on node rabbit@adaas up
+
+2017-05-29 13:03:44.501582 rabbit on node rabbit@dane up
+
+2017-05-29 13:03:44.511085 Management plugin started. Port: 15672
+
+2017-05-29 13:03:45.689933 Server startup complete; 7 plugins started.
+ * rabbitmq_management
+ * rabbitmq_web_dispatch
+ * rabbitmq_event_exchange
+ * rabbitmq_management_agent
+ * webmachine
+ * mochiweb
+ * amqp_client
+
+2017-05-29 13:03:47.691336 checking heartbeat
+2017-05-29 13:03:49.693667 checking heartbeat
+2017-05-29 13:03:51.695134 checking heartbeat
+2017-05-29 13:03:53.697444 checking heartbeat
+2017-05-29 13:03:56.845813 checking heartbeat
+2017-05-29 13:03:58.848187 checking heartbeat
+2017-05-29 13:04:00.850707 checking heartbeat
+2017-05-29 13:04:02.852785 checking heartbeat
+2017-05-29 13:04:06.846700 checking heartbeat
+2017-05-29 13:04:08.848222 checking heartbeat
+2017-05-29 13:04:10.850381 checking heartbeat
+2017-05-29 13:04:12.852751 checking heartbeat
+2017-05-29 13:04:16.849772 checking heartbeat
+2017-05-29 13:04:18.852125 checking heartbeat
+2017-05-29 13:04:20.854455 checking heartbeat
+2017-05-29 13:04:22.855917 checking heartbeat
+2017-05-29 13:04:26.851826 checking heartbeat
+2017-05-29 13:04:28.854242 checking heartbeat
+2017-05-29 13:04:30.855210 checking heartbeat
+2017-05-29 13:04:32.857526 checking heartbeat
+2017-05-29 13:04:36.852902 checking heartbeat
+2017-05-29 13:04:38.855208 checking heartbeat
+2017-05-29 13:04:40.857776 checking heartbeat
+2017-05-29 13:04:42.858163 checking heartbeat
+2017-05-29 13:04:46.855847 checking heartbeat
+2017-05-29 13:04:48.858159 checking heartbeat
+2017-05-29 13:04:50.858494 checking heartbeat
+2017-05-29 13:04:52.860910 checking heartbeat
+2017-05-29 13:04:56.856138 checking heartbeat
+2017-05-29 13:04:58.858481 checking heartbeat
+2017-05-29 13:05:00.860612 checking heartbeat
+2017-05-29 13:05:02.862693 checking heartbeat
+2017-05-29 13:05:06.859758 checking heartbeat
+2017-05-29 13:05:08.862147 checking heartbeat
+2017-05-29 13:05:10.864550 checking heartbeat
+2017-05-29 13:05:12.866916 checking heartbeat
+2017-05-29 13:05:16.861841 checking heartbeat
+2017-05-29 13:05:18.864323 checking heartbeat
+2017-05-29 13:05:20.866651 checking heartbeat
+2017-05-29 13:05:22.868527 checking heartbeat
+2017-05-29 13:05:26.863779 checking heartbeat
+2017-05-29 13:05:28.866137 checking heartbeat
+2017-05-29 13:05:30.868638 checking heartbeat
+2017-05-29 13:05:32.870995 checking heartbeat
+2017-05-29 13:05:36.865545 checking heartbeat
+2017-05-29 13:05:38.867886 checking heartbeat
+2017-05-29 13:05:40.870191 checking heartbeat
+2017-05-29 13:05:42.872634 checking heartbeat
+2017-05-29 13:05:46.867822 checking heartbeat
+2017-05-29 13:05:48.869868 checking heartbeat
+2017-05-29 13:05:50.872173 checking heartbeat
+2017-05-29 13:05:52.874516 checking heartbeat
+2017-05-29 13:05:56.869720 checking heartbeat
+2017-05-29 13:05:58.872029 checking heartbeat
+2017-05-29 13:06:00.874341 checking heartbeat
+2017-05-29 13:06:02.876662 checking heartbeat
+2017-05-29 13:06:06.871764 checking heartbeat
+2017-05-29 13:06:08.872508 checking heartbeat
+2017-05-29 13:06:10.874832 checking heartbeat
+2017-05-29 13:06:12.875295 checking heartbeat
+2017-05-29 13:06:16.873778 checking heartbeat
+2017-05-29 13:06:18.874450 checking heartbeat
+2017-05-29 13:06:20.876938 checking heartbeat
+2017-05-29 13:06:22.879250 checking heartbeat
+2017-05-29 13:06:26.875772 checking heartbeat
+2017-05-29 13:06:28.878179 checking heartbeat
+2017-05-29 13:06:30.880581 checking heartbeat
+2017-05-29 13:06:32.882998 checking heartbeat
+2017-05-29 13:06:36.877328 checking heartbeat
+2017-05-29 13:06:38.878847 checking heartbeat
+2017-05-29 13:06:40.881118 checking heartbeat
+2017-05-29 13:06:42.883491 checking heartbeat
+2017-05-29 13:06:46.879791 checking heartbeat
+2017-05-29 13:06:48.882143 checking heartbeat
+2017-05-29 13:06:50.884445 checking heartbeat
+2017-05-29 13:06:52.886760 checking heartbeat
+2017-05-29 13:06:56.881755 checking heartbeat
+2017-05-29 13:06:58.884198 checking heartbeat
+2017-05-29 13:07:00.886522 checking heartbeat
+2017-05-29 13:07:02.887462 checking heartbeat
+2017-05-29 13:07:06.883782 checking heartbeat
+2017-05-29 13:07:08.886177 checking heartbeat
+2017-05-29 13:07:10.886842 checking heartbeat
+2017-05-29 13:07:12.889239 checking heartbeat
+2017-05-29 13:07:16.885742 checking heartbeat
+2017-05-29 13:07:18.888047 checking heartbeat
+2017-05-29 13:07:20.889283 checking heartbeat
+2017-05-29 13:07:22.889712 checking heartbeat
+2017-05-29 13:07:26.887876 checking heartbeat
+2017-05-29 13:07:28.890228 checking heartbeat
+2017-05-29 13:07:30.892564 checking heartbeat
+2017-05-29 13:07:32.894910 checking heartbeat
+2017-05-29 13:07:36.887884 checking heartbeat
+2017-05-29 13:07:38.890241 checking heartbeat
+2017-05-29 13:07:40.891803 checking heartbeat
+2017-05-29 13:07:42.893375 checking heartbeat
+2017-05-29 13:07:46.891878 checking heartbeat
+2017-05-29 13:07:48.894365 checking heartbeat
+2017-05-29 13:07:50.896737 checking heartbeat
+2017-05-29 13:07:52.899113 checking heartbeat
+2017-05-29 13:07:56.893812 checking heartbeat
+2017-05-29 13:07:58.894480 checking heartbeat
+2017-05-29 13:08:00.896942 checking heartbeat
+2017-05-29 13:08:02.899370 checking heartbeat
+2017-05-29 13:08:06.895463 checking heartbeat
+2017-05-29 13:08:08.897661 checking heartbeat
+2017-05-29 13:08:10.900019 checking heartbeat
+2017-05-29 13:08:12.902519 checking heartbeat
+2017-05-29 13:08:16.897814 checking heartbeat
+2017-05-29 13:08:18.898162 checking heartbeat
+2017-05-29 13:08:19.890828 Stopping RabbitMQ
+
+2017-05-29 13:08:19.903006 stopped TCP Listener on [::]:5672
+
+2017-05-29 13:08:19.927973 rabbit on node rabbit@dane down
+
+2017-05-29 13:08:19.930811 Keep rabbit@dane listeners: the node is already back
+
+2017-05-29 13:08:19.940253 node rabbit@dane down: connection_closed
+
+2017-05-29 13:08:20.007561 Mirrored queue 'hello4' in vhost 'vhost1': Master <rabbit@adaas.2.31395.697> saw deaths of mirrors <rabbit@dane.2.353.0>
+
+2017-05-29 13:08:20.008045 Mirrored queue 'hello6' in vhost 'vhost1': Master <rabbit@adaas.2.31401.697> saw deaths of mirrors <rabbit@dane.2.361.0>
+
+2017-05-29 13:08:20.008500 Mirrored queue 'hello7' in vhost 'vhost1': Master <rabbit@adaas.2.31354.697> saw deaths of mirrors <rabbit@dane.2.349.0>
+
+2017-05-29 13:08:20.008980 Mirrored queue 'hello5' in vhost 'vhost1': Master <rabbit@adaas.2.31408.697> saw deaths of mirrors <rabbit@dane.2.357.0>
+
+2017-05-29 13:08:22.011312 checking heartbeat
+2017-05-29 13:08:24.013341 checking heartbeat
+2017-05-29 13:08:26.015719 checking heartbeat
+2017-05-29 13:08:28.017646 checking heartbeat
+2017-05-29 13:08:31.900183 checking heartbeat
+2017-05-29 13:08:33.902524 checking heartbeat
+2017-05-29 13:08:35.904962 checking heartbeat
+2017-05-29 13:08:37.906177 checking heartbeat
+2017-05-29 13:08:41.901382 checking heartbeat
+2017-05-29 13:08:42.988691 node rabbit@dane up
+
+2017-05-29 13:08:45.004324 checking heartbeat
+2017-05-29 13:08:47.006673 checking heartbeat
+2017-05-29 13:08:49.007824 checking heartbeat
+2017-05-29 13:08:49.048835 started TCP Listener on [::]:5672
+
+2017-05-29 13:08:49.049388 rabbit on node rabbit@adaas up
+
+2017-05-29 13:08:49.049860 rabbit on node rabbit@dane up
+
+2017-05-29 13:08:49.058721 Management plugin started. Port: 15672
+
+2017-05-29 13:08:50.238329 Server startup complete; 7 plugins started.
+ * rabbitmq_management
+ * rabbitmq_web_dispatch
+ * webmachine
+ * mochiweb
+ * rabbitmq_event_exchange
+ * rabbitmq_management_agent
+ * amqp_client
+
+2017-05-29 13:08:52.240766 checking heartbeat
+2017-05-29 13:08:54.243107 checking heartbeat
+2017-05-29 13:08:56.245470 checking heartbeat
+2017-05-29 13:08:58.246746 checking heartbeat
+2017-05-29 13:09:01.906840 checking heartbeat
+2017-05-29 13:09:03.909236 checking heartbeat
+2017-05-29 13:09:05.911682 checking heartbeat
+2017-05-29 13:09:07.912585 checking heartbeat
+2017-05-29 13:09:11.908603 checking heartbeat
+2017-05-29 13:09:13.910929 checking heartbeat
+2017-05-29 13:09:15.913321 checking heartbeat
+2017-05-29 13:09:17.915781 checking heartbeat
+2017-05-29 13:09:21.910814 checking heartbeat
+2017-05-29 13:09:23.913221 checking heartbeat
+2017-05-29 13:09:25.915567 checking heartbeat
+2017-05-29 13:09:27.917907 checking heartbeat
+2017-05-29 13:09:31.912438 checking heartbeat
+2017-05-29 13:09:33.914776 checking heartbeat
+2017-05-29 13:09:35.917174 checking heartbeat
+2017-05-29 13:09:37.919564 checking heartbeat
+2017-05-29 13:09:41.914786 checking heartbeat
+2017-05-29 13:09:43.917232 checking heartbeat
+2017-05-29 13:09:45.918441 checking heartbeat
+2017-05-29 13:09:47.920743 checking heartbeat
+2017-05-29 13:09:51.915765 checking heartbeat
+2017-05-29 13:09:53.917734 checking heartbeat
+2017-05-29 13:09:55.920162 checking heartbeat
+2017-05-29 13:09:57.922506 checking heartbeat
+2017-05-29 13:10:01.918832 checking heartbeat
+2017-05-29 13:10:03.919612 checking heartbeat
+2017-05-29 13:10:05.921953 checking heartbeat
+2017-05-29 13:10:07.922723 checking heartbeat
+2017-05-29 13:10:11.920784 checking heartbeat
+2017-05-29 13:10:13.922070 checking heartbeat
+2017-05-29 13:10:15.924371 checking heartbeat
+2017-05-29 13:10:17.926745 checking heartbeat
+2017-05-29 13:10:21.921897 checking heartbeat
+2017-05-29 13:10:23.924213 checking heartbeat
+2017-05-29 13:10:25.925766 checking heartbeat
+2017-05-29 13:10:27.928166 checking heartbeat
+2017-05-29 13:10:31.923818 checking heartbeat
+2017-05-29 13:10:33.926321 checking heartbeat
+2017-05-29 13:10:35.928667 checking heartbeat
+2017-05-29 13:10:37.930958 checking heartbeat
+2017-05-29 13:10:41.925403 checking heartbeat
+2017-05-29 13:10:43.927559 checking heartbeat
+2017-05-29 13:10:45.930051 checking heartbeat
+2017-05-29 13:10:47.932396 checking heartbeat
+2017-05-29 13:10:51.928936 checking heartbeat
+2017-05-29 13:10:53.931255 checking heartbeat
+2017-05-29 13:10:55.933583 checking heartbeat
+2017-05-29 13:10:57.936016 checking heartbeat
+2017-05-29 13:11:01.930834 checking heartbeat
+2017-05-29 13:11:03.933160 checking heartbeat
+2017-05-29 13:11:05.935484 checking heartbeat
+2017-05-29 13:11:07.936915 checking heartbeat
+2017-05-29 13:11:11.932866 checking heartbeat
+2017-05-29 13:11:13.935211 checking heartbeat
+2017-05-29 13:11:15.937553 checking heartbeat
+2017-05-29 13:11:17.939383 checking heartbeat
+2017-05-29 13:11:21.933931 checking heartbeat
+2017-05-29 13:11:23.936344 checking heartbeat
+2017-05-29 13:11:25.938170 checking heartbeat
+2017-05-29 13:11:27.939648 checking heartbeat
+2017-05-29 13:11:31.936891 checking heartbeat
+2017-05-29 13:11:33.939213 checking heartbeat
+2017-05-29 13:11:35.941668 checking heartbeat
+2017-05-29 13:11:37.943196 checking heartbeat
+2017-05-29 13:11:41.938810 checking heartbeat
+2017-05-29 13:11:43.941220 checking heartbeat
+2017-05-29 13:11:45.943145 checking heartbeat
+2017-05-29 13:11:47.945552 checking heartbeat
+2017-05-29 13:11:51.940918 checking heartbeat
+2017-05-29 13:11:53.943165 checking heartbeat
+2017-05-29 13:11:55.945467 checking heartbeat
+2017-05-29 13:11:57.947793 checking heartbeat
+2017-05-29 13:12:01.942118 checking heartbeat
+2017-05-29 13:12:03.944160 checking heartbeat
+2017-05-29 13:12:05.946485 checking heartbeat
+2017-05-29 13:12:07.948824 checking heartbeat
+2017-05-29 13:12:11.944858 checking heartbeat
+2017-05-29 13:12:13.946718 checking heartbeat
+2017-05-29 13:12:15.949059 checking heartbeat
+2017-05-29 13:12:17.951368 checking heartbeat
+2017-05-29 13:12:21.946148 checking heartbeat
+2017-05-29 13:12:23.948474 checking heartbeat
+2017-05-29 13:12:25.951088 checking heartbeat
+2017-05-29 13:12:27.953408 checking heartbeat
+2017-05-29 13:12:31.948771 checking heartbeat
+2017-05-29 13:12:33.951135 checking heartbeat
+2017-05-29 13:12:35.953465 checking heartbeat
+2017-05-29 13:12:37.955795 checking heartbeat
+2017-05-29 13:12:41.950823 checking heartbeat
+2017-05-29 13:12:43.952797 checking heartbeat
+2017-05-29 13:12:45.955138 checking heartbeat
+2017-05-29 13:12:47.956060 checking heartbeat
+2017-05-29 13:12:51.952844 checking heartbeat
+2017-05-29 13:12:53.955176 checking heartbeat
+2017-05-29 13:12:55.957506 checking heartbeat
+2017-05-29 13:12:57.959855 checking heartbeat
+2017-05-29 13:13:01.954745 checking heartbeat
+2017-05-29 13:13:03.957251 checking heartbeat
+2017-05-29 13:13:05.959599 checking heartbeat
+2017-05-29 13:13:07.961897 checking heartbeat
+2017-05-29 13:13:11.955905 checking heartbeat
+2017-05-29 13:13:13.958239 checking heartbeat
+2017-05-29 13:13:15.960671 checking heartbeat
+2017-05-29 13:13:17.962990 checking heartbeat
+2017-05-29 13:13:21.958813 checking heartbeat
+2017-05-29 13:13:23.961268 checking heartbeat
+2017-05-29 13:13:25.963652 checking heartbeat
+2017-05-29 13:13:27.966070 checking heartbeat
+2017-05-29 13:13:31.960786 checking heartbeat
+2017-05-29 13:13:33.963127 checking heartbeat
+2017-05-29 13:13:35.965435 checking heartbeat
+2017-05-29 13:13:37.967768 checking heartbeat
+2017-05-29 13:13:41.960928 checking heartbeat
+2017-05-29 13:13:43.963256 checking heartbeat
+2017-05-29 13:13:45.965565 checking heartbeat
+2017-05-29 13:13:47.967894 checking heartbeat
+2017-05-29 13:13:51.964774 checking heartbeat
+2017-05-29 13:13:53.967156 checking heartbeat
+2017-05-29 13:13:55.969508 checking heartbeat
+2017-05-29 13:13:57.971839 checking heartbeat
+2017-05-29 13:14:01.966758 checking heartbeat
+2017-05-29 13:14:03.967149 checking heartbeat
+2017-05-29 13:14:05.969475 checking heartbeat
+2017-05-29 13:14:07.971579 checking heartbeat
+2017-05-29 13:14:11.968801 checking heartbeat
+2017-05-29 13:14:13.971223 checking heartbeat
+2017-05-29 13:14:15.973560 checking heartbeat
+2017-05-29 13:14:17.975908 checking heartbeat
+2017-05-29 13:14:21.970845 checking heartbeat
+2017-05-29 13:14:23.971951 checking heartbeat
+2017-05-29 13:14:25.974250 checking heartbeat
+2017-05-29 13:14:27.976543 checking heartbeat
+2017-05-29 13:14:31.972786 checking heartbeat
+2017-05-29 13:14:33.975217 checking heartbeat
+2017-05-29 13:14:35.977599 checking heartbeat
+2017-05-29 13:14:37.979892 checking heartbeat
+2017-05-29 13:14:41.974774 checking heartbeat
+2017-05-29 13:14:43.975787 checking heartbeat
+2017-05-29 13:14:45.976261 checking heartbeat
+2017-05-29 13:14:47.978626 checking heartbeat
+2017-05-29 13:14:51.976767 checking heartbeat
+2017-05-29 13:14:53.979112 checking heartbeat
+2017-05-29 13:14:55.981463 checking heartbeat
+2017-05-29 13:14:57.983866 checking heartbeat
+2017-05-29 13:15:01.978694 checking heartbeat
+2017-05-29 13:15:03.981061 checking heartbeat
+2017-05-29 13:15:05.983407 checking heartbeat
+2017-05-29 13:15:07.985729 checking heartbeat
+2017-05-29 13:15:11.980769 checking heartbeat
+2017-05-29 13:15:13.983169 checking heartbeat
+2017-05-29 13:15:15.985314 checking heartbeat
+2017-05-29 13:15:17.987668 checking heartbeat
+2017-05-29 13:15:21.982737 checking heartbeat
+2017-05-29 13:15:23.985188 checking heartbeat
+2017-05-29 13:15:25.987560 checking heartbeat
+2017-05-29 13:15:27.989879 checking heartbeat
+2017-05-29 13:15:31.983636 checking heartbeat
+2017-05-29 13:15:33.985452 checking heartbeat
+2017-05-29 13:15:35.987151 checking heartbeat
+2017-05-29 13:15:37.989537 checking heartbeat
+2017-05-29 13:15:41.986812 checking heartbeat
+2017-05-29 13:15:43.989271 checking heartbeat
+2017-05-29 13:15:45.991640 checking heartbeat
+2017-05-29 13:15:47.994148 checking heartbeat
+2017-05-29 13:15:51.987479 checking heartbeat
+2017-05-29 13:15:53.989812 checking heartbeat
+2017-05-29 13:15:55.992165 checking heartbeat
+2017-05-29 13:15:57.994514 checking heartbeat
+2017-05-29 13:16:01.989588 checking heartbeat
+2017-05-29 13:16:03.991991 checking heartbeat
+2017-05-29 13:16:05.994333 checking heartbeat
+2017-05-29 13:16:07.996563 checking heartbeat
+2017-05-29 13:16:11.992782 checking heartbeat
+2017-05-29 13:16:13.994706 checking heartbeat
+2017-05-29 13:16:15.997101 checking heartbeat
+2017-05-29 13:16:17.999313 checking heartbeat
+2017-05-29 13:16:21.994911 checking heartbeat
+2017-05-29 13:16:23.996382 checking heartbeat
+2017-05-29 13:16:25.998808 checking heartbeat
+2017-05-29 13:16:28.001128 checking heartbeat
+2017-05-29 13:16:31.995004 checking heartbeat
+2017-05-29 13:16:33.997442 checking heartbeat
+2017-05-29 13:16:35.999773 checking heartbeat
+2017-05-29 13:16:38.002412 checking heartbeat
+2017-05-29 13:16:41.998827 checking heartbeat
+2017-05-29 13:16:44.001223 checking heartbeat
+2017-05-29 13:16:46.002472 checking heartbeat
+2017-05-29 13:16:48.004840 checking heartbeat
+2017-05-29 13:16:52.000788 checking heartbeat
+2017-05-29 13:16:54.003166 checking heartbeat
+2017-05-29 13:16:56.005556 checking heartbeat
+2017-05-29 13:16:58.007891 checking heartbeat
+2017-05-29 13:17:02.002871 checking heartbeat
+2017-05-29 13:17:04.005346 checking heartbeat
+2017-05-29 13:17:06.007711 checking heartbeat
+2017-05-29 13:17:08.010074 checking heartbeat
+2017-05-29 13:17:12.004821 checking heartbeat
+2017-05-29 13:17:14.007204 checking heartbeat
+2017-05-29 13:17:16.007672 checking heartbeat
+2017-05-29 13:17:18.010020 checking heartbeat
+2017-05-29 13:17:22.006966 checking heartbeat
+2017-05-29 13:17:24.009359 checking heartbeat
+2017-05-29 13:17:26.011292 checking heartbeat
+2017-05-29 13:17:28.013756 checking heartbeat
+2017-05-29 13:17:32.008805 checking heartbeat
+2017-05-29 13:17:34.010128 checking heartbeat
+2017-05-29 13:17:36.010628 checking heartbeat
+2017-05-29 13:17:38.013010 checking heartbeat
+2017-05-29 13:17:42.010849 checking heartbeat
+2017-05-29 13:17:44.013453 checking heartbeat
+2017-05-29 13:17:46.015832 checking heartbeat
+2017-05-29 13:17:48.016659 checking heartbeat
+2017-05-29 13:17:52.012579 checking heartbeat
+2017-05-29 13:17:54.014951 checking heartbeat
+2017-05-29 13:17:56.017137 checking heartbeat
+2017-05-29 13:17:58.017597 checking heartbeat
+2017-05-29 13:18:02.013761 checking heartbeat
+2017-05-29 13:18:04.016099 checking heartbeat
+2017-05-29 13:18:06.018440 checking heartbeat
+2017-05-29 13:18:08.019149 checking heartbeat
+2017-05-29 13:18:12.016860 checking heartbeat
+2017-05-29 13:18:14.018953 checking heartbeat
+2017-05-29 13:18:16.021326 checking heartbeat
+2017-05-29 13:18:18.023139 checking heartbeat
+2017-05-29 13:18:22.018831 checking heartbeat
+2017-05-29 13:18:24.021202 checking heartbeat
+2017-05-29 13:18:26.023564 checking heartbeat
+2017-05-29 13:18:28.025921 checking heartbeat
+2017-05-29 13:18:32.020778 checking heartbeat
+2017-05-29 13:18:34.023279 checking heartbeat
+2017-05-29 13:18:36.025618 checking heartbeat
+2017-05-29 13:18:38.027990 checking heartbeat
+2017-05-29 13:18:42.023033 checking heartbeat
+2017-05-29 13:18:44.025376 checking heartbeat
+2017-05-29 13:18:46.027308 checking heartbeat
+2017-05-29 13:18:48.029665 checking heartbeat
+2017-05-29 13:18:52.024776 checking heartbeat
+2017-05-29 13:18:54.027167 checking heartbeat
+2017-05-29 13:18:56.027582 checking heartbeat
+2017-05-29 13:18:58.030071 checking heartbeat
+2017-05-29 13:19:02.026852 checking heartbeat
+2017-05-29 13:19:04.029216 checking heartbeat
+2017-05-29 13:19:06.030429 checking heartbeat
+2017-05-29 13:19:08.032801 checking heartbeat
+2017-05-29 13:19:12.028809 checking heartbeat
+2017-05-29 13:19:14.029773 checking heartbeat
+2017-05-29 13:19:16.032137 checking heartbeat
+2017-05-29 13:19:18.034470 checking heartbeat
+2017-05-29 13:19:22.030810 checking heartbeat
+2017-05-29 13:19:24.033283 checking heartbeat
+2017-05-29 13:19:26.035600 checking heartbeat
+2017-05-29 13:19:28.037922 checking heartbeat
+2017-05-29 13:19:32.032743 checking heartbeat
+2017-05-29 13:19:34.033757 checking heartbeat
+2017-05-29 13:19:36.034283 checking heartbeat
+2017-05-29 13:19:38.036644 checking heartbeat
+2017-05-29 13:19:42.034818 checking heartbeat
+2017-05-29 13:19:44.037269 checking heartbeat
+2017-05-29 13:19:46.037893 checking heartbeat
+2017-05-29 13:19:48.040278 checking heartbeat
+2017-05-29 13:19:52.036812 checking heartbeat
+2017-05-29 13:19:54.038123 checking heartbeat
+2017-05-29 13:19:56.040443 checking heartbeat
+2017-05-29 13:19:58.042755 checking heartbeat
+2017-05-29 13:20:02.038824 checking heartbeat
+2017-05-29 13:20:04.041174 checking heartbeat
+2017-05-29 13:20:06.043499 checking heartbeat
+2017-05-29 13:20:08.045793 checking heartbeat
+2017-05-29 13:20:12.040862 checking heartbeat
+2017-05-29 13:20:14.042699 checking heartbeat
+2017-05-29 13:20:16.045008 checking heartbeat
+2017-05-29 13:20:18.047346 checking heartbeat
+2017-05-29 13:20:22.041266 checking heartbeat
+2017-05-29 13:20:24.043620 checking heartbeat
+2017-05-29 13:20:26.046137 checking heartbeat
+2017-05-29 13:20:28.048506 checking heartbeat
+2017-05-29 13:20:32.044804 checking heartbeat
+2017-05-29 13:20:34.047142 checking heartbeat
+2017-05-29 13:20:36.048145 checking heartbeat
+2017-05-29 13:20:38.050579 checking heartbeat
+2017-05-29 13:20:42.046893 checking heartbeat
+2017-05-29 13:20:44.049261 checking heartbeat
+2017-05-29 13:20:46.051621 checking heartbeat
+2017-05-29 13:20:48.054005 checking heartbeat
+2017-05-29 13:20:52.048931 checking heartbeat
+2017-05-29 13:20:54.050256 checking heartbeat
+2017-05-29 13:20:56.051613 checking heartbeat
+2017-05-29 13:20:58.053985 checking heartbeat
+2017-05-29 13:21:02.051310 checking heartbeat
+2017-05-29 13:21:04.054008 checking heartbeat
+2017-05-29 13:21:06.055711 checking heartbeat
+2017-05-29 13:21:08.057448 checking heartbeat
+2017-05-29 13:21:12.052850 checking heartbeat
+2017-05-29 13:21:14.055299 checking heartbeat
+2017-05-29 13:21:16.055798 checking heartbeat
+2017-05-29 13:21:18.058142 checking heartbeat
+2017-05-29 13:21:22.053585 checking heartbeat
+2017-05-29 13:21:24.055931 checking heartbeat
+2017-05-29 13:21:26.057027 checking heartbeat
+2017-05-29 13:21:28.059467 checking heartbeat
+2017-05-29 13:21:32.055256 checking heartbeat
+2017-05-29 13:21:34.055793 checking heartbeat
+2017-05-29 13:21:36.056542 checking heartbeat
+2017-05-29 13:21:38.004822 accepting AMQP connection <0.7740.2238> (134.221.121.65:36412 -> 134.221.121.65:5672)
+
+2017-05-29 13:21:38.006235 
+2017-05-29 13:21:40.008553 checking heartbeat
+2017-05-29 13:21:42.010918 checking heartbeat
+2017-05-29 13:21:44.013289 checking heartbeat
+2017-05-29 13:21:47.059155 checking heartbeat
+2017-05-29 13:21:49.060342 checking heartbeat
+2017-05-29 13:21:51.062714 checking heartbeat
+2017-05-29 13:21:53.065248 checking heartbeat
+2017-05-29 13:21:57.061717 checking heartbeat
+2017-05-29 13:21:59.064054 checking heartbeat
+2017-05-29 13:22:01.066427 checking heartbeat
+2017-05-29 13:22:03.068742 checking heartbeat
+2017-05-29 13:22:07.063146 checking heartbeat
+2017-05-29 13:22:09.065425 checking heartbeat
+2017-05-29 13:22:11.067723 checking heartbeat
+2017-05-29 13:22:13.069421 checking heartbeat
+2017-05-29 13:22:17.065740 checking heartbeat
+2017-05-29 13:22:19.068105 checking heartbeat
+2017-05-29 13:22:21.070414 checking heartbeat
+2017-05-29 13:22:23.072721 checking heartbeat
+2017-05-29 13:22:27.066597 checking heartbeat
+2017-05-29 13:22:29.068921 checking heartbeat
+2017-05-29 13:22:31.070113 checking heartbeat
+2017-05-29 13:22:33.072377 checking heartbeat
+2017-05-29 13:22:33.740936 
+2017-05-29 13:22:33.741353 closing AMQP connection <0.7740.2238> (134.221.121.65:36412 -> 134.221.121.65:5672):
+client unexpectedly closed TCP connection
+
+2017-05-29 13:22:35.743592 checking heartbeat
+2017-05-29 13:22:37.745908 checking heartbeat
+2017-05-29 13:22:39.746832 checking heartbeat
+2017-05-29 13:22:42.070788 checking heartbeat
+2017-05-29 13:22:44.072262 checking heartbeat
+2017-05-29 13:22:46.074572 checking heartbeat
+2017-05-29 13:22:48.076992 checking heartbeat
+2017-05-29 13:22:52.071172 checking heartbeat
+2017-05-29 13:22:54.072975 checking heartbeat
+2017-05-29 13:22:56.075289 checking heartbeat
+2017-05-29 13:22:58.077636 checking heartbeat
+2017-05-29 13:23:02.074764 checking heartbeat
+2017-05-29 13:23:04.077089 checking heartbeat
+2017-05-29 13:23:06.079392 checking heartbeat
+2017-05-29 13:23:08.081706 checking heartbeat
+2017-05-29 13:23:12.075158 checking heartbeat
+2017-05-29 13:23:14.077530 checking heartbeat
+2017-05-29 13:23:16.079832 checking heartbeat
+2017-05-29 13:23:18.081776 checking heartbeat
+2017-05-29 13:23:22.078438 checking heartbeat
+2017-05-29 13:23:24.080770 checking heartbeat
+2017-05-29 13:23:26.081470 checking heartbeat
+2017-05-29 13:23:28.083782 checking heartbeat
+2017-05-29 13:23:32.079139 checking heartbeat
+2017-05-29 13:23:34.081487 checking heartbeat
+2017-05-29 13:23:36.083893 checking heartbeat
+2017-05-29 13:23:38.086407 checking heartbeat
+2017-05-29 13:23:42.082874 checking heartbeat
+2017-05-29 13:23:44.083297 checking heartbeat
+2017-05-29 13:23:46.085676 checking heartbeat
+2017-05-29 13:23:48.087999 checking heartbeat
+2017-05-29 13:23:52.084861 checking heartbeat
+2017-05-29 13:23:54.087259 checking heartbeat
+2017-05-29 13:23:56.088786 checking heartbeat
+2017-05-29 13:23:58.091175 checking heartbeat
+2017-05-29 13:24:02.086286 checking heartbeat
+2017-05-29 13:24:04.087917 checking heartbeat
+2017-05-29 13:24:06.090245 checking heartbeat
+2017-05-29 13:24:08.090923 checking heartbeat
+2017-05-29 13:24:12.088840 checking heartbeat
+2017-05-29 13:24:14.091209 checking heartbeat
+2017-05-29 13:24:16.093667 checking heartbeat
+2017-05-29 13:24:18.096020 checking heartbeat
+2017-05-29 13:24:22.090823 checking heartbeat
+2017-05-29 13:24:24.093136 checking heartbeat
+2017-05-29 13:24:26.095493 checking heartbeat
+2017-05-29 13:24:28.098038 checking heartbeat
+2017-05-29 13:24:32.092769 checking heartbeat
+2017-05-29 13:24:34.095149 checking heartbeat
+2017-05-29 13:24:36.097347 checking heartbeat
+2017-05-29 13:24:38.099774 checking heartbeat
+2017-05-29 13:24:42.094791 checking heartbeat
+2017-05-29 13:24:44.097180 checking heartbeat
+2017-05-29 13:24:46.098364 checking heartbeat
+2017-05-29 13:24:48.100714 checking heartbeat
+2017-05-29 13:24:52.096687 checking heartbeat
+2017-05-29 13:24:54.098305 checking heartbeat
+2017-05-29 13:24:56.100683 checking heartbeat
+2017-05-29 13:24:58.101246 checking heartbeat
+2017-05-29 13:25:02.098786 checking heartbeat
+2017-05-29 13:25:04.099417 checking heartbeat
+2017-05-29 13:25:06.101875 checking heartbeat
+2017-05-29 13:25:08.103170 checking heartbeat
+2017-05-29 13:25:12.100846 checking heartbeat
+2017-05-29 13:25:14.103204 checking heartbeat
+2017-05-29 13:25:16.105554 checking heartbeat
+2017-05-29 13:25:18.108098 checking heartbeat
+2017-05-29 13:25:20.232000 accepting AMQP connection <0.7847.0> (134.221.121.65:39494 -> 134.221.121.63:5672)
+
+2017-05-29 13:25:20.234472 
+2017-05-29 13:25:22.236783 checking heartbeat
+2017-05-29 13:25:24.239144 checking heartbeat
+2017-05-29 13:25:26.240437 checking heartbeat
+2017-05-29 13:25:28.242789 checking heartbeat
+2017-05-29 13:25:32.103146 checking heartbeat
+2017-05-29 13:25:34.105497 checking heartbeat
+2017-05-29 13:25:36.106916 checking heartbeat
+2017-05-29 13:25:37.045769 closing AMQP connection <0.7847.0> (134.221.121.65:39494 -> 134.221.121.63:5672):
+client unexpectedly closed TCP connection
+
+2017-05-29 13:25:37.046145 
+2017-05-29 13:25:39.048409 checking heartbeat
+2017-05-29 13:25:41.050769 checking heartbeat
+2017-05-29 13:25:43.053137 checking heartbeat
+2017-05-29 13:25:45.055289 checking heartbeat
+2017-05-29 13:25:47.107793 checking heartbeat
+2017-05-29 13:25:49.110186 checking heartbeat
+2017-05-29 13:25:51.111854 checking heartbeat
+2017-05-29 13:25:53.114249 checking heartbeat
+2017-05-29 13:25:57.109859 checking heartbeat
+2017-05-29 13:25:59.112231 checking heartbeat
+2017-05-29 13:26:01.113941 checking heartbeat
+2017-05-29 13:26:03.116636 checking heartbeat
+2017-05-29 13:26:03.763566 accepting AMQP connection <0.10164.2238> (134.221.121.65:36948 -> 134.221.121.65:5672)
+
+2017-05-29 13:26:03.765197 
+2017-05-29 13:26:05.767463 checking heartbeat
+2017-05-29 13:26:07.769816 checking heartbeat
+2017-05-29 13:26:09.770722 checking heartbeat
+2017-05-29 13:26:12.111149 checking heartbeat
+2017-05-29 13:26:14.112813 checking heartbeat
+2017-05-29 13:26:14.604208 
+2017-05-29 13:26:14.604644 closing AMQP connection <0.10164.2238> (134.221.121.65:36948 -> 134.221.121.65:5672):
+client unexpectedly closed TCP connection
+
+2017-05-29 13:26:16.605343 checking heartbeat
+2017-05-29 13:26:18.607687 checking heartbeat
+2017-05-29 13:26:22.114795 checking heartbeat
+2017-05-29 13:26:24.117232 checking heartbeat
+2017-05-29 13:26:26.119567 checking heartbeat
+2017-05-29 13:26:28.120598 checking heartbeat
+2017-05-29 13:26:32.116870 checking heartbeat
+2017-05-29 13:26:34.117597 checking heartbeat
+2017-05-29 13:26:36.118906 checking heartbeat
+2017-05-29 13:26:38.120628 checking heartbeat
+2017-05-29 13:26:42.118760 checking heartbeat
+2017-05-29 13:26:44.121230 checking heartbeat
+2017-05-29 13:26:46.123144 checking heartbeat
+2017-05-29 13:26:48.125491 checking heartbeat
+2017-05-29 13:26:52.120739 checking heartbeat
+2017-05-29 13:26:54.123023 checking heartbeat
+2017-05-29 13:26:56.123986 checking heartbeat
+2017-05-29 13:26:58.124369 checking heartbeat
+2017-05-29 13:27:02.122813 checking heartbeat
+2017-05-29 13:27:04.125105 checking heartbeat
+2017-05-29 13:27:06.127453 checking heartbeat
+2017-05-29 13:27:08.129855 checking heartbeat
+2017-05-29 13:27:12.123384 checking heartbeat
+2017-05-29 13:27:14.125794 checking heartbeat
+2017-05-29 13:27:16.126899 checking heartbeat
+2017-05-29 13:27:18.127952 checking heartbeat
+2017-05-29 13:27:22.126847 checking heartbeat
+2017-05-29 13:27:24.129096 checking heartbeat
+2017-05-29 13:27:26.131436 checking heartbeat
+2017-05-29 13:27:28.133733 checking heartbeat
+2017-05-29 13:27:32.128777 checking heartbeat
+2017-05-29 13:27:34.131181 checking heartbeat
+2017-05-29 13:27:36.133622 checking heartbeat
+2017-05-29 13:27:38.135310 checking heartbeat
+2017-05-29 13:27:42.130812 checking heartbeat
+2017-05-29 13:27:44.133242 checking heartbeat
+2017-05-29 13:27:46.135602 checking heartbeat
+2017-05-29 13:27:48.138030 checking heartbeat
+2017-05-29 13:27:52.132744 checking heartbeat
+2017-05-29 13:27:54.135081 checking heartbeat
+2017-05-29 13:27:56.137141 checking heartbeat
+2017-05-29 13:27:58.139445 checking heartbeat
+2017-05-29 13:28:02.134778 checking heartbeat
+2017-05-29 13:28:04.135894 checking heartbeat
+2017-05-29 13:28:06.138233 checking heartbeat
+2017-05-29 13:28:08.138664 checking heartbeat
+2017-05-29 13:28:12.136742 checking heartbeat
+2017-05-29 13:28:14.138420 checking heartbeat
+2017-05-29 13:28:16.139262 checking heartbeat
+2017-05-29 13:28:18.139671 checking heartbeat
+2017-05-29 13:28:22.138835 checking heartbeat
+2017-05-29 13:28:24.141181 checking heartbeat
+2017-05-29 13:28:26.143571 checking heartbeat
+2017-05-29 13:28:28.145904 checking heartbeat
+2017-05-29 13:28:32.140778 checking heartbeat
+2017-05-29 13:28:34.143085 checking heartbeat
+2017-05-29 13:28:36.145441 checking heartbeat
+2017-05-29 13:28:38.147958 checking heartbeat
+2017-05-29 13:28:42.142749 checking heartbeat
+2017-05-29 13:28:44.143892 checking heartbeat
+2017-05-29 13:28:46.146093 checking heartbeat
+2017-05-29 13:28:48.148460 checking heartbeat
+2017-05-29 13:28:52.144713 checking heartbeat
+2017-05-29 13:28:54.147036 checking heartbeat
+2017-05-29 13:28:56.149348 checking heartbeat
+2017-05-29 13:28:58.151654 checking heartbeat
+2017-05-29 13:29:02.146748 checking heartbeat
+2017-05-29 13:29:04.149233 checking heartbeat
+2017-05-29 13:29:06.151558 checking heartbeat
+2017-05-29 13:29:08.153904 checking heartbeat
+2017-05-29 13:29:12.148784 checking heartbeat
+2017-05-29 13:29:14.151130 checking heartbeat
+2017-05-29 13:29:16.153508 checking heartbeat
+2017-05-29 13:29:18.155371 checking heartbeat
+2017-05-29 13:29:22.150822 checking heartbeat
+2017-05-29 13:29:24.151975 checking heartbeat
+2017-05-29 13:29:26.154312 checking heartbeat
+2017-05-29 13:29:28.155345 checking heartbeat
+2017-05-29 13:29:32.152208 checking heartbeat
+2017-05-29 13:29:34.154530 checking heartbeat
+2017-05-29 13:29:36.155380 checking heartbeat
+2017-05-29 13:29:38.157694 checking heartbeat
+2017-05-29 13:29:42.154762 checking heartbeat
+2017-05-29 13:29:44.157174 checking heartbeat
+2017-05-29 13:29:46.159455 checking heartbeat
+2017-05-29 13:29:48.161764 checking heartbeat
+2017-05-29 13:29:52.155284 checking heartbeat
+2017-05-29 13:29:54.157645 checking heartbeat
+2017-05-29 13:29:56.159964 checking heartbeat
+2017-05-29 13:29:58.162279 checking heartbeat
+2017-05-29 13:30:02.158755 checking heartbeat
+2017-05-29 13:30:04.159968 checking heartbeat
+2017-05-29 13:30:06.162185 checking heartbeat
+2017-05-29 13:30:08.164532 checking heartbeat
+2017-05-29 13:30:12.160717 checking heartbeat
+2017-05-29 13:30:14.163102 checking heartbeat
+2017-05-29 13:30:16.165089 checking heartbeat
+2017-05-29 13:30:18.167575 checking heartbeat
+2017-05-29 13:30:22.162631 checking heartbeat
+2017-05-29 13:30:24.164925 checking heartbeat
+2017-05-29 13:30:26.167247 checking heartbeat
+2017-05-29 13:30:28.169642 checking heartbeat
+2017-05-29 13:30:32.164810 checking heartbeat
+2017-05-29 13:30:34.167134 checking heartbeat
+2017-05-29 13:30:36.169432 checking heartbeat
+2017-05-29 13:30:38.171730 checking heartbeat
+2017-05-29 13:30:42.166734 checking heartbeat
+2017-05-29 13:30:44.169297 checking heartbeat
+2017-05-29 13:30:46.171693 checking heartbeat
+2017-05-29 13:30:48.173170 checking heartbeat
+2017-05-29 13:30:52.168789 checking heartbeat
+2017-05-29 13:30:54.171130 checking heartbeat
+2017-05-29 13:30:56.173523 checking heartbeat
+2017-05-29 13:30:58.175826 checking heartbeat
+2017-05-29 13:31:02.168861 checking heartbeat
+2017-05-29 13:31:04.171191 checking heartbeat
+2017-05-29 13:31:06.173538 checking heartbeat
+2017-05-29 13:31:08.175164 checking heartbeat
+2017-05-29 13:31:12.172753 checking heartbeat
+2017-05-29 13:31:14.175166 checking heartbeat
+2017-05-29 13:31:16.177494 checking heartbeat
+2017-05-29 13:31:18.179797 checking heartbeat
+2017-05-29 13:31:22.174761 checking heartbeat
+2017-05-29 13:31:24.175169 checking heartbeat
+2017-05-29 13:31:26.176882 checking heartbeat
+2017-05-29 13:31:28.179197 checking heartbeat
+2017-05-29 13:31:32.175174 checking heartbeat
+2017-05-29 13:31:34.177665 checking heartbeat
+2017-05-29 13:31:36.178079 checking heartbeat
+2017-05-29 13:31:38.180499 checking heartbeat
+2017-05-29 13:31:42.177186 checking heartbeat
+2017-05-29 13:31:44.179529 checking heartbeat
+2017-05-29 13:31:46.181976 checking heartbeat
+2017-05-29 13:31:48.183133 checking heartbeat
+2017-05-29 13:31:52.179866 checking heartbeat
+2017-05-29 13:31:54.181414 checking heartbeat
+2017-05-29 13:31:56.183811 checking heartbeat
+2017-05-29 13:31:58.186269 checking heartbeat
+2017-05-29 13:32:02.182769 checking heartbeat
+2017-05-29 13:32:04.185178 checking heartbeat
+2017-05-29 13:32:06.187509 checking heartbeat
+2017-05-29 13:32:08.188279 checking heartbeat
+2017-05-29 13:32:12.184804 checking heartbeat
+2017-05-29 13:32:14.187187 checking heartbeat
+2017-05-29 13:32:16.189557 checking heartbeat
+2017-05-29 13:32:18.191888 checking heartbeat
+2017-05-29 13:32:22.185876 checking heartbeat
+2017-05-29 13:32:24.188385 checking heartbeat
+2017-05-29 13:32:26.189405 checking heartbeat
+2017-05-29 13:32:28.191745 checking heartbeat
+2017-05-29 13:32:32.188102 checking heartbeat
+2017-05-29 13:32:34.190446 checking heartbeat
+2017-05-29 13:32:36.192883 checking heartbeat
+2017-05-29 13:32:38.195249 checking heartbeat
+2017-05-29 13:32:42.190847 checking heartbeat
+2017-05-29 13:32:44.193264 checking heartbeat
+2017-05-29 13:32:46.194564 checking heartbeat
+2017-05-29 13:32:48.197084 checking heartbeat
+2017-05-29 13:32:52.190841 checking heartbeat
+2017-05-29 13:32:54.193226 checking heartbeat
+2017-05-29 13:32:56.195605 checking heartbeat
+2017-05-29 13:32:58.197941 checking heartbeat
+2017-05-29 13:33:02.194822 checking heartbeat
+2017-05-29 13:33:04.197217 checking heartbeat
+2017-05-29 13:33:06.199614 checking heartbeat
+2017-05-29 13:33:08.202023 checking heartbeat
+2017-05-29 13:33:12.196901 checking heartbeat
+2017-05-29 13:33:14.199488 checking heartbeat
+2017-05-29 13:33:16.200673 checking heartbeat
+2017-05-29 13:33:18.203024 checking heartbeat
+2017-05-29 13:33:22.198938 checking heartbeat
+2017-05-29 13:33:24.200573 checking heartbeat
+2017-05-29 13:33:26.203189 checking heartbeat
+2017-05-29 13:33:28.203909 checking heartbeat
+2017-05-29 13:33:32.200475 checking heartbeat
+2017-05-29 13:33:34.202861 checking heartbeat
+2017-05-29 13:33:36.205244 checking heartbeat
+2017-05-29 13:33:38.207646 checking heartbeat
+2017-05-29 13:33:42.202794 checking heartbeat
+2017-05-29 13:33:44.205052 checking heartbeat
+2017-05-29 13:33:46.207445 checking heartbeat
+2017-05-29 13:33:48.209788 checking heartbeat
+2017-05-29 13:33:52.204767 checking heartbeat
+2017-05-29 13:33:54.207140 checking heartbeat
+2017-05-29 13:33:56.209510 checking heartbeat
+2017-05-29 13:33:58.211940 checking heartbeat
+2017-05-29 13:34:02.206807 checking heartbeat
+2017-05-29 13:34:04.209307 checking heartbeat
+2017-05-29 13:34:06.211654 checking heartbeat
+2017-05-29 13:34:08.214011 checking heartbeat
+2017-05-29 13:34:12.208183 checking heartbeat
+2017-05-29 13:34:14.208696 checking heartbeat
+2017-05-29 13:34:16.211156 checking heartbeat
+2017-05-29 13:34:18.213849 checking heartbeat
+2017-05-29 13:34:22.210814 checking heartbeat
+2017-05-29 13:34:24.213212 checking heartbeat
+2017-05-29 13:34:26.215543 checking heartbeat
+2017-05-29 13:34:28.216362 checking heartbeat
+2017-05-29 13:34:32.212820 checking heartbeat
+2017-05-29 13:34:34.215185 checking heartbeat
+2017-05-29 13:34:36.217535 checking heartbeat
+2017-05-29 13:34:38.219894 checking heartbeat
+2017-05-29 13:34:42.214575 checking heartbeat
+2017-05-29 13:34:44.216993 checking heartbeat
+2017-05-29 13:34:46.219307 checking heartbeat
+2017-05-29 13:34:48.221880 checking heartbeat
+2017-05-29 13:34:52.216726 checking heartbeat
+2017-05-29 13:34:54.219030 checking heartbeat
+2017-05-29 13:34:56.221504 checking heartbeat
+2017-05-29 13:34:58.223694 checking heartbeat
+2017-05-29 13:35:02.218816 checking heartbeat
+2017-05-29 13:35:04.221189 checking heartbeat
+2017-05-29 13:35:06.223550 checking heartbeat
+2017-05-29 13:35:08.225982 checking heartbeat
+2017-05-29 13:35:12.220785 checking heartbeat
+2017-05-29 13:35:14.223171 checking heartbeat
+2017-05-29 13:35:16.225531 checking heartbeat
+2017-05-29 13:35:18.227921 checking heartbeat
+2017-05-29 13:35:22.222181 checking heartbeat
+2017-05-29 13:35:24.224508 checking heartbeat
+2017-05-29 13:35:26.226854 checking heartbeat
+2017-05-29 13:35:28.229264 checking heartbeat
+2017-05-29 13:35:32.224705 checking heartbeat
+2017-05-29 13:35:34.227129 checking heartbeat
+2017-05-29 13:35:36.229462 checking heartbeat
+2017-05-29 13:35:38.231499 checking heartbeat
+2017-05-29 13:35:42.225311 checking heartbeat
+2017-05-29 13:35:44.227680 checking heartbeat
+2017-05-29 13:35:46.230138 checking heartbeat
+2017-05-29 13:35:48.231162 checking heartbeat
+2017-05-29 13:35:52.227163 checking heartbeat
+2017-05-29 13:35:54.229487 checking heartbeat
+2017-05-29 13:35:56.231822 checking heartbeat
+2017-05-29 13:35:58.234188 checking heartbeat
+2017-05-29 13:36:02.230829 checking heartbeat
+2017-05-29 13:36:04.233183 checking heartbeat
+2017-05-29 13:36:06.234819 checking heartbeat
+2017-05-29 13:36:08.237229 checking heartbeat
+2017-05-29 13:36:12.232813 checking heartbeat
+2017-05-29 13:36:14.233715 checking heartbeat
+2017-05-29 13:36:16.235082 checking heartbeat
+2017-05-29 13:36:18.237195 checking heartbeat
+2017-05-29 13:36:22.234748 checking heartbeat
+2017-05-29 13:36:24.236296 checking heartbeat
+2017-05-29 13:36:25.772007 accepting AMQP connection <0.12801.0> (134.221.121.65:40848 -> 134.221.121.63:5672)
+
+2017-05-29 13:36:25.773522 
+2017-05-29 13:36:27.775804 checking heartbeat
+2017-05-29 13:36:29.778167 checking heartbeat
+2017-05-29 13:36:31.780497 checking heartbeat
+2017-05-29 13:36:33.782854 checking heartbeat
+2017-05-29 13:36:37.237770 checking heartbeat
+2017-05-29 13:36:39.240083 checking heartbeat
+2017-05-29 13:36:41.242558 checking heartbeat
+2017-05-29 13:36:43.243223 checking heartbeat
+2017-05-29 13:36:47.239790 checking heartbeat
+2017-05-29 13:36:49.242195 checking heartbeat
+2017-05-29 13:36:51.243235 checking heartbeat
+2017-05-29 13:36:53.244962 checking heartbeat
+2017-05-29 13:36:57.241825 checking heartbeat
+2017-05-29 13:36:59.244141 checking heartbeat
+2017-05-29 13:37:01.246484 checking heartbeat
+2017-05-29 13:37:03.248806 checking heartbeat
+2017-05-29 13:37:07.243442 checking heartbeat
+2017-05-29 13:37:09.245800 checking heartbeat
+2017-05-29 13:37:11.247928 checking heartbeat
+2017-05-29 13:37:13.249482 checking heartbeat
+2017-05-29 13:37:17.245775 checking heartbeat
+2017-05-29 13:37:19.248231 checking heartbeat
+2017-05-29 13:37:21.250567 checking heartbeat
+2017-05-29 13:37:23.252927 checking heartbeat
+2017-05-29 13:37:27.247702 checking heartbeat
+2017-05-29 13:37:29.250024 checking heartbeat
+2017-05-29 13:37:31.252423 checking heartbeat
+2017-05-29 13:37:33.254783 checking heartbeat
+2017-05-29 13:37:37.247758 checking heartbeat
+2017-05-29 13:37:39.248413 checking heartbeat
+2017-05-29 13:37:41.249174 checking heartbeat
+2017-05-29 13:37:43.251488 checking heartbeat
+2017-05-29 13:37:47.251688 checking heartbeat
+2017-05-29 13:37:49.254026 checking heartbeat
+2017-05-29 13:37:51.256316 checking heartbeat
+2017-05-29 13:37:53.256793 checking heartbeat
+2017-05-29 13:37:57.253779 checking heartbeat
+2017-05-29 13:37:59.256054 checking heartbeat
+2017-05-29 13:38:01.257837 checking heartbeat
+2017-05-29 13:38:03.260226 checking heartbeat
+2017-05-29 13:38:07.255784 checking heartbeat
+2017-05-29 13:38:09.258102 checking heartbeat
+2017-05-29 13:38:11.260483 checking heartbeat
+2017-05-29 13:38:13.262788 checking heartbeat
+2017-05-29 13:38:17.257816 checking heartbeat
+2017-05-29 13:38:18.342918 
+2017-05-29 13:38:18.343542 closing AMQP connection <0.12801.0> (134.221.121.65:40848 -> 134.221.121.63:5672)
+
+2017-05-29 13:38:20.345829 checking heartbeat
+2017-05-29 13:38:22.348131 checking heartbeat
+2017-05-29 13:38:24.350477 checking heartbeat
+2017-05-29 13:38:27.259776 checking heartbeat
+2017-05-29 13:38:29.262098 checking heartbeat
+2017-05-29 13:38:31.264407 checking heartbeat
+2017-05-29 13:38:33.266793 checking heartbeat
+2017-05-29 13:38:37.261143 checking heartbeat
+2017-05-29 13:38:39.263500 checking heartbeat
+2017-05-29 13:38:41.265799 checking heartbeat
+2017-05-29 13:38:43.268209 checking heartbeat
+2017-05-29 13:38:47.263753 checking heartbeat
+2017-05-29 13:38:49.266107 checking heartbeat
+2017-05-29 13:38:51.268420 checking heartbeat
+2017-05-29 13:38:53.269721 checking heartbeat
+2017-05-29 13:38:57.265759 checking heartbeat
+2017-05-29 13:38:59.268254 checking heartbeat
+2017-05-29 13:39:01.270666 checking heartbeat
+2017-05-29 13:39:03.273070 checking heartbeat
+2017-05-29 13:39:07.267741 checking heartbeat
+2017-05-29 13:39:09.269144 checking heartbeat
+2017-05-29 13:39:11.271646 checking heartbeat
+2017-05-29 13:39:13.272218 checking heartbeat
+2017-05-29 13:39:17.269833 checking heartbeat
+2017-05-29 13:39:19.272216 checking heartbeat
+2017-05-29 13:39:21.274543 checking heartbeat
+2017-05-29 13:39:23.276989 checking heartbeat
