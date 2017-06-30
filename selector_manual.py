@@ -34,9 +34,16 @@ def print_fc_now(out_file1,out_file2,msg):
         text_file.write(msg)
 
 
-def override():
-#TODO
-    return False
+def override(override_fname):
+    with open(override_fname, "r") as text_file:
+        ovr=int(text_file.readline())
+
+    if ovr==0 | ovr==1:
+        return ovr
+    else:
+        print('override file corrupted, must contain 0 or 1')
+        exit(1)
+
 
 def failover(cl):
     print_fc_now(out_file1,out_file2,'failover mode')
@@ -46,9 +53,10 @@ def failover(cl):
         print_fc_now(out_file1,out_file2,'error: queue ' + a_Q1 + ' has no bindings at all')
         #exit(1)
 
-    elif not filter(lambda qb: (qb['source'] == a_exchange) & (qb['destination']==a_Q1) & (qb['routing_key']==a_key2), qbindings):
-        print_fc_now(out_file1,out_file2,'creating binding ' + pub2 + ' to ' + a_Q1)
-        cl.create_binding(vhost=a_vhost, exchange=a_exchange, queue=a_Q1, rt_key=a_key2)
+    else:
+        if not filter(lambda qb: (qb['source'] == a_exchange) & (qb['destination']==a_Q1) & (qb['routing_key']==a_key2), qbindings):
+            print_fc_now(out_file1,out_file2,'creating binding ' + pub2 + ' to ' + a_Q1)
+            cl.create_binding(vhost=a_vhost, exchange=a_exchange, queue=a_Q1, rt_key=a_key2)
         if filter(lambda qb: (qb['source'] == a_exchange) & (qb['destination']==a_Q1) & (qb['routing_key']==a_key1), qbindings):
             print_fc_now(out_file1,out_file2,'removing binding ' + pub1 + ' to ' + a_Q1)
             cl.delete_binding(vhost=a_vhost, exchange=a_exchange, queue=a_Q1, rt_key=a_key1)
@@ -58,9 +66,13 @@ def failover(cl):
             print_fc_now(out_file1,out_file2,'error: queue ' + a_Q2 + ' has no bindings at all')
             #exit(1)
 
-    elif filter(lambda qb: (qb['source'] == a_exchange) & (qb['destination']==a_Q2) & (qb['routing_key']==a_key2), qbindings):
-        print_fc_now(out_file1,out_file2,'removing binding ' + pub2 + ' to ' + a_Q2)
-        cl.delete_binding(vhost=a_vhost, exchange=a_exchange, queue=a_Q2, rt_key=a_key2)
+    else:
+        if filter(lambda qb: (qb['source'] == a_exchange) & (qb['destination']==a_Q2) & (qb['routing_key']==a_key2), qbindings):
+            print_fc_now(out_file1,out_file2,'removing binding ' + pub2 + ' to ' + a_Q2)
+            cl.delete_binding(vhost=a_vhost, exchange=a_exchange, queue=a_Q2, rt_key=a_key2)
+        if filter(lambda qb: (qb['source'] == a_exchange) & (qb['destination']==a_Q2) & (qb['routing_key']==a_key1), qbindings):
+            print_fc_now(out_file1,out_file2,'removing binding ' + pub1 + ' to ' + a_Q2)
+            cl.delete_binding(vhost=a_vhost, exchange=a_exchange, queue=a_Q2, rt_key=a_key1)
 
 def failover_for_manual(cl):
     print_fc_now(out_file1,out_file2,'failover for manual mode')
@@ -70,9 +82,10 @@ def failover_for_manual(cl):
         print_fc_now(out_file1,out_file2,'error: queue ' + a_Q2 + ' has no bindings at all')
         #exit(1)
 
-    elif not filter(lambda qb: (qb['source'] == a_exchange) & (qb['destination']==a_Q2) & (qb['routing_key']==a_key1), qbindings):
-        print_fc_now(out_file1,out_file2,'creating binding ' + pub1 + ' to ' + a_Q2)
-        cl.create_binding(vhost=a_vhost, exchange=a_exchange, queue=a_Q2, rt_key=a_key1)
+    else:
+        if not filter(lambda qb: (qb['source'] == a_exchange) & (qb['destination']==a_Q2) & (qb['routing_key']==a_key1), qbindings):
+            print_fc_now(out_file1,out_file2,'creating binding ' + pub1 + ' to ' + a_Q2)
+            cl.create_binding(vhost=a_vhost, exchange=a_exchange, queue=a_Q2, rt_key=a_key1)
         if filter(lambda qb: (qb['source'] == a_exchange) & (qb['destination']==a_Q2) & (qb['routing_key']==a_key2), qbindings):
             print_fc_now(out_file1,out_file2,'removing binding ' + pub2 + ' to ' + a_Q2)
             cl.delete_binding(vhost=a_vhost, exchange=a_exchange, queue=a_Q2, rt_key=a_key2)
@@ -82,9 +95,14 @@ def failover_for_manual(cl):
         print_fc_now(out_file1,out_file2,'error: queue ' + a_Q1 + ' has no bindings at all')
         #exit(1)
 
-    elif filter(lambda qb: (qb['source'] == a_exchange) & (qb['destination']==a_Q1) & (qb['routing_key']==a_key1), qbindings):
-        print_fc_now(out_file1,out_file2,'removing binding ' + pub1 + ' to ' + a_Q1)
-        cl.delete_binding(vhost=a_vhost, exchange=a_exchange, queue=a_Q1, rt_key=a_key1)
+    else:
+        if filter(lambda qb: (qb['source'] == a_exchange) & (qb['destination']==a_Q1) & (qb['routing_key']==a_key1), qbindings):
+            print_fc_now(out_file1,out_file2,'removing binding ' + pub1 + ' to ' + a_Q1)
+            cl.delete_binding(vhost=a_vhost, exchange=a_exchange, queue=a_Q1, rt_key=a_key1)
+        if filter(lambda qb: (qb['source'] == a_exchange) & (qb['destination'] == a_Q1) & (qb['routing_key'] == a_key2), qbindings):
+            print_fc_now(out_file1, out_file2, 'removing binding ' + pub2 + ' to ' + a_Q1)
+            cl.delete_binding(vhost=a_vhost, exchange=a_exchange, queue=a_Q1, rt_key=a_key2)
+
 
 def normal(cl):
     print_fc_now(out_file1,out_file2,'normal mode')
@@ -94,9 +112,10 @@ def normal(cl):
         print_fc_now(out_file1,out_file2,'error: queue ' + a_Q1 + ' has no bindings at all')
         #exit(1)
 
-    elif not filter(lambda qb: (qb['source'] == a_exchange) & (qb['destination']==a_Q1) & (qb['routing_key']==a_key1), qbindings):
-        print_fc_now(out_file1,out_file2,'creating binding ' + pub1 + ' to ' + a_Q1)
-        cl.create_binding(vhost=a_vhost, exchange=a_exchange, queue=a_Q1, rt_key=a_key1)
+    else:
+        if not filter(lambda qb: (qb['source'] == a_exchange) & (qb['destination']==a_Q1) & (qb['routing_key']==a_key1), qbindings):
+            print_fc_now(out_file1,out_file2,'creating binding ' + pub1 + ' to ' + a_Q1)
+            cl.create_binding(vhost=a_vhost, exchange=a_exchange, queue=a_Q1, rt_key=a_key1)
         if filter(lambda qb: (qb['source'] == a_exchange) & (qb['destination']==a_Q1) & (qb['routing_key']==a_key2), qbindings):
             print_fc_now(out_file1,out_file2,'removing binding ' + pub2 + ' to ' + a_Q1)
             cl.delete_binding(vhost=a_vhost, exchange=a_exchange, queue=a_Q1, rt_key=a_key2)
@@ -107,9 +126,13 @@ def normal(cl):
         print_fc_now(out_file1,out_file2,'error: queue ' + a_Q2 + ' has no bindings at all')
         #exit(1)
 
-    elif not filter(lambda qb: (qb['source'] == a_exchange) & (qb['destination']==a_Q2) & (qb['routing_key']==a_key2), qbindings):
-        print_fc_now(out_file1,out_file2,'creating binding ' + pub2 + ' to ' + a_Q2)
-        cl.create_binding(vhost=a_vhost, exchange=a_exchange, queue=a_Q2, rt_key=a_key2)
+    else:
+        if not filter(lambda qb: (qb['source'] == a_exchange) & (qb['destination']==a_Q2) & (qb['routing_key']==a_key2), qbindings):
+            print_fc_now(out_file1,out_file2,'creating binding ' + pub2 + ' to ' + a_Q2)
+            cl.create_binding(vhost=a_vhost, exchange=a_exchange, queue=a_Q2, rt_key=a_key2)
+        if filter(lambda qb: (qb['source'] == a_exchange) & (qb['destination']==a_Q2) & (qb['routing_key']==a_key1), qbindings):
+            print_fc_now(out_file1,out_file2,'removing binding ' + pub1 + ' to ' + a_Q2)
+            cl.delete_binding(vhost=a_vhost, exchange=a_exchange, queue=a_Q2, rt_key=a_key1)
 
 
 
@@ -118,9 +141,37 @@ def normal(cl):
 def master_alarm():
     print_fc_now(out_file1,out_file2,'master alarm ! All publishers disconnected')
 
+
+override_fname="/home/adaas/adaas_demo/override.txt"
+
 cl = Client('localhost:15672', 'user1', 'password1')
 
 if cl.is_alive():
+
+    dt_now=str(datetime.now()).replace(" ","_")
+    out_file1="/home/adaas/adaas_demo/logs-selector/q-top-1-" + dt_now
+    out_file2="/home/adaas/adaas_demo/logs-selector/q-top-2-" + dt_now
+    out_fname1="/home/adaas/adaas_demo/logs-selector/out_fname1.txt"
+    out_fname2="/home/adaas/adaas_demo/logs-selector/out_fname2.txt"
+
+    with open(out_fname1, "w+") as text_file:
+        text_file.write(out_file1)
+
+    with open(out_fname2, "w+") as text_file:
+        text_file.write(out_file2)
+
+#TODO :rethink if we want delete block in production
+    try:
+        cl.delete_queue(vhost=a_vhost, qname=a_Q1)
+    except http.HTTPError:
+        print_fc_now(out_file1,out_file2,"no queue " + a_Q1)
+
+    try:
+        cl.delete_queue(vhost=a_vhost, qname=a_Q2)
+    except http.HTTPError:
+        print_fc_now(out_file1,out_file2,"no queue " + a_Q2)
+
+
     cl.create_queue(vhost=a_vhost, name=a_Q1, durable=True)
     cl.create_queue(vhost=a_vhost, name=a_Q2, durable=True)
 
@@ -138,17 +189,10 @@ if cl.is_alive():
     cl.create_binding(vhost=a_vhost, exchange=a_exchange, queue=a_Q1, rt_key=a_key1)
     cl.create_binding(vhost=a_vhost, exchange=a_exchange, queue=a_Q2, rt_key=a_key2)
 
-    dt_now=str(datetime.now()).replace(" ","_")
-    out_file1="/home/adaas/adaas_demo/logs-selector/q-top-1-" + dt_now
-    out_file2="/home/adaas/adaas_demo/logs-selector/q-top-2-" + dt_now
-    out_fname1="/home/adaas/adaas_demo/logs-selector/out_fname1.txt"
-    out_fname2="/home/adaas/adaas_demo/logs-selector/out_fname2.txt"
 
-    with open(out_fname1, "w+") as text_file:
-        text_file.write(out_file1)
-
-    with open(out_fname2, "w+") as text_file:
-        text_file.write(out_file2)
+else:
+    print("broker dead?")
+    exit(1)
 
 
 
@@ -182,7 +226,7 @@ while True:
 
     if cons1_conn:
         if pub1_conn:
-            if override():
+            if override(override_fname=override_fname):
                 failover(cl=cl)
             else:
                 normal(cl=cl)
